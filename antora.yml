@@ -1,4 +1,3 @@
-// component descriptor file
 name: jamstack
 title: JAMstack
 version: 'latest'
@@ -11,4 +10,3 @@ nav:
 - modules/jekyll/about-jekyll.adoc
 - modules/hugo/about-hugo.adoc
 - modules/multimedia/about-multimedia.adoc
-#- modules/user-named-module/nav.adoc
