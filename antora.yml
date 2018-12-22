@@ -1,5 +1,5 @@
 name: jamstack
-title: JAMstack Menu
+title: JAMstack
 version: 'latest'
 start_page: ROOT:index.adoc
 nav:

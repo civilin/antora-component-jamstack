@@ -1,1 +1,1 @@
-* xref:index.adoc[JAMstack Home]
+* xref:index.adoc[About JAMstack]
