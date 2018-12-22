@@ -1,5 +1,5 @@
-= Antora Component Structure
+= Antora Component: JAMstack
 // :idprefix:
 // :idseparator: -
 
-For convenience, copy this generic Antora component structure when you need to create a new component.
+This Antora component contains topics based on my experiences using JAMstack tools and techniques.
