@@ -4,9 +4,9 @@ version: 'latest'
 start_page: ROOT:index.adoc
 nav:
 - modules/ROOT/nav.adoc
-- modules/asciidoc/about-asciidoc.adoc
-- modules/markdown/about-markdown.adoc
-- modules/antora/about-antora.adoc
-- modules/jekyll/about-jekyll.adoc
-- modules/hugo/about-hugo.adoc
-- modules/multimedia/about-multimedia.adoc
+- modules/asciidoc/nav.adoc
+- modules/markdown/nav.adoc
+- modules/antora/nav.adoc
+- modules/jekyll/nav.adoc
+- modules/hugo/nav.adoc
+- modules/multimedia/nav.adoc
