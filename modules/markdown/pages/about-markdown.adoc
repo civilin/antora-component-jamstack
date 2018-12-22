@@ -1,0 +1,9 @@
+= About Markdown
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
+
+This is About Markdown page in the markdown module of the JAMstack component.

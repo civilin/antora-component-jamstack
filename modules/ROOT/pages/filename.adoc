@@ -1,0 +1,16 @@
+= Welcome to filename.adoc
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// AsciiDoc Settings
+:idprefix:
+:idseparator: -
+:table-caption!:
+
+Preamble Text goes here, if any.
+
+Any regular text follows...
+
+== Heading 2
+
+And so on.

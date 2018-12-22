@@ -1,0 +1,9 @@
+= About Antora
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
+
+This is the *About Antora* landing page, in the antora module of the jamstack component. 

@@ -1,0 +1,9 @@
+= About Multimedia
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
+
+This is the About Multimedia page in the multimedia module of the JAMstack component.

@@ -1,0 +1,14 @@
+// component descriptor file
+name: jamstack
+title: JAMstack
+version: 'latest'
+start_page: ROOT:index.adoc
+nav:
+- modules/ROOT/nav.adoc
+- modules/asciidoc/about-asciidoc.adoc
+- modules/markdown/about-markdown.adoc
+- modules/antora/about-antora.adoc
+- modules/jekyll/about-jekyll.adoc
+- modules/hugo/about-hugo.adoc
+- modules/multimedia/about-multimedia.adoc
+#- modules/user-named-module/nav.adoc

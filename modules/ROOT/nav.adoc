@@ -1,0 +1,5 @@
+* Title Text in ROOT's nav.adoc
+* xref:index.adoc[JAMstack Home]
+* xref:filename.adoc[Text of filename.adoc in the TOC]
+* Title with Children
+** xref:filename2.adoc[Title of filename2.adoc in the TOC]
