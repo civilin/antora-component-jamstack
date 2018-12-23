@@ -1,2 +1,3 @@
 .Multimedia
 * xref:about-multimedia.adoc[About Multimedia]
+** xref:multimedia-example.adoc[Multimedia Example]
