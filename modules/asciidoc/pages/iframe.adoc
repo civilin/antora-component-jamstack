@@ -12,6 +12,12 @@ endif::[]
 
 It may not be possible to do +++<u>iframes</u>+++ in Antora. This page is a test, and I have not found a solution yet.
 
+== Just hard code it
+
+++++
+<p><iframe src="https://apps.fedoraproject.org/packages/rubygem-asciidoctor"></iframe></p>
+++++
+
 == Allow attributes to be substituted
 
 [subs=attributes]
