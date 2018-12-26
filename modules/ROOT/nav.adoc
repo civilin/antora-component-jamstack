@@ -1,1 +1,2 @@
 * xref:index.adoc[About JAMstack]
+** xref:docs-as-code.adoc[Docs-as-code]
