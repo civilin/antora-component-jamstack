@@ -7,11 +7,14 @@ endif::[]
 :idseparator: -
 :variable: Steve
 :url: https://apps.fedoraproject.org/packages/rubygem-asciidoctor
-:iframe: ++<iframe src="{url}"></iframe>++
+:iframe: <p><iframe src="{url}"></iframe></p>
 
 It may not be possible to do +++<u>iframes</u>+++ in Antora. This page is a test, and I have not found a solution yet.
 
-+++{iframe}+++
+[subs=attributes]
+++++
+{iframe}
++++
 
 ## Test 2
 
