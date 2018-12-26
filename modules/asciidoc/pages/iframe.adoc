@@ -8,6 +8,7 @@ endif::[]
 :variable: Steve
 :url: https://apps.fedoraproject.org/packages/rubygem-asciidoctor
 :iframe: <p><iframe src="{url}"></iframe></p>
+:iframe2: pass:[iframe]
 
 It may not be possible to do +++<u>iframes</u>+++ in Antora. This page is a test, and I have not found a solution yet.
 
@@ -17,6 +18,9 @@ It may not be possible to do +++<u>iframes</u>+++ in Antora. This page is a test
 ++++
 {iframe}
 ++++
+
+== Try the pass macro
+{iframe2}
 
 == Test 2
 
