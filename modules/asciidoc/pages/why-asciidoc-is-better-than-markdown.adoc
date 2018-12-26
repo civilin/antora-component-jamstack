@@ -1,7 +1,5 @@
 = Why AsciiDoc is better for technical writing
 
-> Since Asciidoc is expressive enough 
-
 For simple jobs, Markdown and AsciiDoc are similar. There isn't much difference until you need to do something that Markdown lacks a syntax to describe. For example, Markdown can't create complex tables or float text around images. It doesn't support definition lists, citations, mathematics, and footnotes. It can't open a web link in a new window. The original Markdown specification does not support these things.
 
 Writers of Markdown work around limitations in several ways:
@@ -18,6 +16,8 @@ Jekyll and Hugo both support AsciiDoc, but Antora is the premier site generator 
 
 == Why AsciiDoc is more expressive than Markdown
 
-Markdown is shorthand for a subset of HTML, whereas AsciiDoc is shorthand for the parts of print publications. Since AsciiDoc corresponds semantically to the DocBook DTD, AsciiDoc can markup complex technical articles. For example, AsciiDoc makes it easy to include a source listing, to prettify it, add numbering, and highlight portions of code.
+Markdown is shorthand for a subset of HTML, whereas AsciiDoc is shorthand for parts of print publications. Since AsciiDoc corresponds semantically to the DocBook DTD, AsciiDoc can markup complex technical articles. For example, AsciiDoc makes it easy to include a source listing, to prettify it, add numbering, and highlight portions of code.
 
-AsciiDoc is excellent for single-sourcing, since its markup does not rely on HTML or short codes to handle complex writing requirements.
+== The importance of expressive syntax
+
+AsciiDoc is expressive enough to handle complex writing requirements without intermixing HTML or short codes. Content written in AsciiDoc is easily convertable to other formats. You can convert Markdown to HTML, but it is not easy to convert Markdown to other formats if inline HTML or short codes were mixed in to add expressiveness. This makes Markdown less useful for single-sourcing projects.
