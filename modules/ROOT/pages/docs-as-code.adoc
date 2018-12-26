@@ -1,0 +1,20 @@
+= What is docs-as-code?
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
+
+Put info here to explain what docs as code is. Be sure to give some credit to Tom Johnson.
+
+.Related topics
+* http://www.writethedocs.org/guide/docs-as-code/
+
+* https://gdstechnology.blog.gov.uk/2017/08/25/why-we-use-a-docs-as-code-approach-for-technical-documentation/
+
+* https://idratherbewriting.com/2017/11/21/switching-to-docs-as-code/
+
+* https://idratherbewriting.com/2018/07/03/docs-as-code-after-three-years/
+
+* https://idratherbewriting.com/2017/06/02/when-docs-are-not-like-code/
