@@ -18,17 +18,15 @@ By applying software development processes and tools to technical documentation,
 
 * Websites are built using a *static site generator*, such as Antora, Jekyll, or Hugo. The site generator uses a template to control the appearance and layout of the website. Content is separated from presentation, thereby keepoing documentation consistent across products and teams.
 
-.Related topics
+.Related articles on the web
 
-* https://gdstechnology.blog.gov.uk/2017/08/25/why-we-use-a-docs-as-code-approach-for-technical-documentation/[Why we use a ‘docs as code’ approach for technical documentation]
+* https://gdstechnology.blog.gov.uk/2017/08/25/why-we-use-a-docs-as-code-approach-for-technical-documentation/[Why we use a ‘docs as code’ approach for technical documentation^]
 
-
-* http://www.writethedocs.org/guide/docs-as-code/
-
+* https://idratherbewriting.com/learnapidoc/pubapis_switching_to_docs_as_code.html[Case study: Switching tools to docs-as-code, by Tom Johnson^]
 
 
-* https://idratherbewriting.com/2017/11/21/switching-to-docs-as-code/
+* http://www.writethedocs.org/guide/docs-as-code/[Docs as code, by Eric Holscher & the Write the Docs community^]
 
-* https://idratherbewriting.com/2018/07/03/docs-as-code-after-three-years/
+* https://idratherbewriting.com/2018/07/03/docs-as-code-after-three-years/[Thoughts on docs-as-code after 3 years -- it works! by Tom Johnson]
 
-* https://idratherbewriting.com/2017/06/02/when-docs-are-not-like-code/
+* https://idratherbewriting.com/2017/06/02/when-docs-are-not-like-code/[Limits to the idea of treating docs as code, by Tom Johnson^]
