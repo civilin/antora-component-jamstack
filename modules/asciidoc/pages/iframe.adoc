@@ -11,12 +11,14 @@ endif::[]
 
 It may not be possible to do +++<u>iframes</u>+++ in Antora. This page is a test, and I have not found a solution yet.
 
+== Allow attributes to be substituted
+
 [subs=attributes]
 ++++
 {iframe}
-+++
+++++
 
-## Test 2
+== Test 2
 
 {iframe}
 
@@ -24,23 +26,23 @@ It may not be possible to do +++<u>iframes</u>+++ in Antora. This page is a test
 
 pass:[content like {variable} passed directly to the output] followed by normal content. The pass macro does not appear to work at all.
 
-## Test 4
+== Test 4
 
 ++++
 pass:[{iframe}]
 ++++
 
-## Test 5
+== Test 5
 
 pass: [{iframe}]
 
-## Test 6
+== Test 6
 
 ++++
 {iframe}
 ++++
 
-## Test 7 Open Block
+== Test 7 Open Block
 
 --
 {iframe}
