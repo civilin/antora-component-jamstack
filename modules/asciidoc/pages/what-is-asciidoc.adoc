@@ -7,18 +7,18 @@
 
 // The above paragraph is a preamble. To create a preamble, type a single paragraph between the document title and the first section title (Heading). Depending upon the stylesheet, preamble text looks larger than body text.
 
-AsciiDoc is a _lightweight markup language_. As such, it uses simple, unobtrusive syntax that is easy to read and compose. Dozens of lightweight markup languages exist, but only a handful are prevalent. The most popular is *Markdown*, a syntax designed to generate blog posts in HTML.
-
-But AsciiDoc is xref:jamstack:asciidoc:why-asciidoc-is-better-than-markdown.adoc[is a better syntax for techical writing than Markdown].
+AsciiDoc is a _lightweight markup language_. As such, it uses simple, unobtrusive syntax that is easy to read and compose. Dozens of lightweight markup languages exist, but only a handful are prevalent. The most popular is *Markdown*, a syntax designed to generate blog posts in HTML. But AsciiDoc is a xref:jamstack:asciidoc:why-asciidoc-is-better-than-markdown.adoc[better for techical writing than Markdown].
 
 Think of AsciiDoc as _shorthand_ for composing sophisticated content in plain text files. You can convert AsciiDoc files to HTML, PDF, ebooks, and many other formats, using a variety of tools.
 
-Programmers like AsciiDoc because it works like source code. Want to hide a paragraph from output? Comment it out. Need variables or conditional expressions? Can do. Want to include one file in another? AsciiDoc supports that too.
+* Programmers like AsciiDoc because it works like source code. Want to hide a paragraph from output? Comment it out. Need variables or conditional expressions? Can do. Want to include one file in another? AsciiDoc supports that too.
 
-Technical writers like AsciiDoc because it is more flexible than wysiwyg editors, and less complicated than <tagging> text.
+* Technical writers like AsciiDoc because it is more flexible than wysiwyg editors, and less complicated than <tagging> text.
 
-AsciiDoc markup is 100% _semantic_. It is not a formatting tool. AsciiDoc's markup specifications correlate directly to DocBook DTD elements. However, writing in AsciiDoc is less complicated than tagging for DocBook, DITA, or HTML. AsciiDoc is terrific for single-sourcing. Because AsciiDoc separates content from presentation, your writing will take on the appearance of each delivery format.
+* AsciiDoc is easy for humans to read, even if they don't know AsciiDoc markup.
 
-AsciiDoc is easy for humans to read, even if they don't know AsciiDoc markup. When you complete this tutorial, you'll be able to compose sophisticated publications in AsciiDoc.
+AsciiDoc markup is 100% _semantic_, but it is not a formatting tool. AsciiDoc markup correlates to DocBook DTD elements. Since AsciiDoc can describe anything that DocBook can, it can describe almost anything you will find in a book.
 
-AsciiDoc is easy to use, by careful design. To learn its syntax, jump to xref:jamstack:asciidoc:basic-markup.adoc[Basic Markup].
+However, writing in AsciiDoc is less complicated than tagging for DocBook, DITA, or HTML. AsciiDoc is terrific for single-sourcing. Because AsciiDoc separates content from presentation, your writing will take on the appearance of each delivery format.
+
+AsciiDoc is easy to use, by careful design. To learn its syntax, jump to xref:jamstack:asciidoc:basic-markup.adoc[Basic Markup]. When you complete the tutorial, you'll be able to compose sophisticated publications in AsciiDoc.
