@@ -27,6 +27,6 @@ By applying software development processes and tools to technical documentation,
 
 * http://www.writethedocs.org/guide/docs-as-code/[Docs as code, by Eric Holscher & the Write the Docs community^]
 
-* https://idratherbewriting.com/2018/07/03/docs-as-code-after-three-years/[Thoughts on docs-as-code after 3 years -- it works! by Tom Johnson]
+* https://idratherbewriting.com/2018/07/03/docs-as-code-after-three-years/[Thoughts on docs-as-code after 3 years -- it works! by Tom Johnson^]
 
 * https://idratherbewriting.com/2017/06/02/when-docs-are-not-like-code/[Limits to the idea of treating docs as code, by Tom Johnson^]
