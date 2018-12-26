@@ -21,9 +21,6 @@ I have not found a good way to embed +++<u>iframes</u>+++ in Antora, except to h
 <style>
 html{ height: 100%; }
 
-body {
-    overflow:hidden;
-}
 iframe {
     border: 1px solid black;
     width: 100%;
