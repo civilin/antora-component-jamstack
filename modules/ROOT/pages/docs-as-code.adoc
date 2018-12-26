@@ -19,9 +19,13 @@ By applying software development processes and tools to technical documentation,
 * Websites are built using a *static site generator*, such as Antora, Jekyll, or Hugo. The site generator uses a template to control the appearance and layout of the website. Content is separated from presentation, thereby keepoing documentation consistent across products and teams.
 
 .Related topics
+
+* https://gdstechnology.blog.gov.uk/2017/08/25/why-we-use-a-docs-as-code-approach-for-technical-documentation/[Why we use a ‘docs as code’ approach for technical documentation]
+
+
 * http://www.writethedocs.org/guide/docs-as-code/
 
-* https://gdstechnology.blog.gov.uk/2017/08/25/why-we-use-a-docs-as-code-approach-for-technical-documentation/
+
 
 * https://idratherbewriting.com/2017/11/21/switching-to-docs-as-code/
 
