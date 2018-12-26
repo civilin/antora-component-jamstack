@@ -1,6 +1,7 @@
 .AsciiDoc
 * xref:about-asciidoc.adoc[About AsciiDoc]
 ** xref:what-is-asciidoc.adoc[What is AsciiDoc?]
+** xref:why-asciidoc-is-better-than-markdown.adoc[Why AsciiDoc is better for technical writing than Markdown]
 ** xref:editors.adoc[Editors]
 ** xref:basic-markup.adoc[Basic Markup]
 *** xref:document-title.adoc[Document Title]
