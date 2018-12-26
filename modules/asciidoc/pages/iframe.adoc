@@ -12,12 +12,13 @@ endif::[]
 
 It may not be possible to do +++<u>iframes</u>+++ in Antora. This page is a test, and I have not found a solution yet.
 
-== Just hard code it
+// Just hard code it
 
 ++++
-<p><iframe src="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html"></iframe></p>
+<p><iframe width="100%"  src="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html"></iframe></p>
 ++++
 
+//// These all failed
 == Allow attributes to be substituted
 
 [subs=attributes]
@@ -57,3 +58,5 @@ pass: [{iframe}]
 --
 {iframe}
 --
+
+////
