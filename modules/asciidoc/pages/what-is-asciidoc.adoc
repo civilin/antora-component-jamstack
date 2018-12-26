@@ -11,11 +11,11 @@ AsciiDoc is a _lightweight markup language_. As such, it uses simple, unobtrusiv
 
 Think of AsciiDoc as _shorthand_ for composing sophisticated content in plain text files. You can convert AsciiDoc files to HTML, PDF, ebooks, and many other formats, using a variety of tools.
 
-* Programmers like AsciiDoc because it works like source code. Want to hide a paragraph from output? Comment it out. Need variables or conditional expressions? Can do. Want to include one file in another? AsciiDoc supports that too.
+- *Programmers* like AsciiDoc because it works like source code. Want to hide a paragraph from output? Comment it out. Need variables or conditional expressions? Can do. Want to include one file in another? AsciiDoc supports that too.
 
-* Technical writers like AsciiDoc because it is more flexible than wysiwyg editors, and less complicated than <tagging> text.
+- *Technical writers* like AsciiDoc because it is more flexible than wysiwyg editors, and less complicated than <tagging> text.
 
-* Reviewers like AsciiDoc, because it is easy for people to read, even if they don't know AsciiDoc syntax.
+- *Reviewers* like AsciiDoc, because it is easy for humans to read, even if they don't know AsciiDoc.
 
 AsciiDoc markup is 100% _semantic_, but it is not a formatting tool. AsciiDoc markup correlates to DocBook DTD elements. Since AsciiDoc can describe anything that DocBook can, it can describe almost anything you will find in a book.
 
