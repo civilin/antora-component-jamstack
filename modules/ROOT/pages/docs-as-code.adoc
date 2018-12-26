@@ -6,7 +6,7 @@ endif::[]
 :idprefix:
 :idseparator: -
 
-"*Docs-as-code*" refers to the process of writing documentation using the same tools that programmers use to manage source code.
+*Docs-as-code* refers to the process of writing documentation using the same tools that programmers use to manage source code.
 
 By applying software development processes and tools to technical documentation, writers can more easily manage files and versions of publications or websites.
 
