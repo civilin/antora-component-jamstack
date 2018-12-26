@@ -20,4 +20,6 @@ Markdown is shorthand for a subset of HTML, whereas AsciiDoc is shorthand for pa
 
 == Expressive syntax is more easily single-sourced
 
-AsciiDoc is expressive enough to handle complex writing requirements without intermixing HTML or short codes. Content written in AsciiDoc is easily convertable to other formats. You can convert Markdown to HTML, but it is not easy to convert Markdown to other formats if inline HTML or short codes were mixed in to add expressiveness. This makes Markdown less useful for single-sourcing projects.
+AsciiDoc is expressive enough to handle complex writing requirements without intermixing HTML or short codes to overcome limitations. Content conversions are more achievable when a pure markup language is used. Content written in AsciiDoc converts to many formats. Markdown is harder to single source, since inline HTML and short codes are mixed in to add expressiveness.
+
+This is not to say that Markdown isn't useful. Markdown is awesome in its own right. The task of creating simple web pages is trivially easy using either Markdown or AsciiDoc. The difference is that AsciiDoc offers extra syntax, for extra functionality. AsciiDoc does everything Markdown can do, using equally simple syntax. When you need something more, it is at your disposal without having to resort to special flavors, inline HTML, or a set of short codes provided by a static site generation template.
