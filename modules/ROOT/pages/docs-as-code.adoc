@@ -1,4 +1,4 @@
-= What is docs-as-code?
+= Writing doc like code
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -6,7 +6,18 @@ endif::[]
 :idprefix:
 :idseparator: -
 
-Put info here to explain what docs as code is. Be sure to give some credit to Tom Johnson.
+== What is docs-as-code approach?
+
+"Docs as code" refers to the process of writing documentation using some of the tools that programmers use to manage source code.
+
+* Instead of writing statements in a programming language, writers compose text in a lightweight markup language such as AsciiDoc, Markdown, or reStructuredText.
+
+* Content is managed in a version control system, such as Git or Bitbucket.
+
+* Writers use an issue tracker such as JIRA, to manage tasks and projects.
+
+* Very often, a static site generator, such as Antora, Jekyll, or Hugo, is used to build a website.
+
 
 .Related topics
 * http://www.writethedocs.org/guide/docs-as-code/
