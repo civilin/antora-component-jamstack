@@ -18,6 +18,6 @@ Jekyll and Hugo both support AsciiDoc, but Antora is the premier site generator 
 
 Markdown is shorthand for a subset of HTML, whereas AsciiDoc is shorthand for parts of print publications. Since AsciiDoc corresponds semantically to the DocBook DTD, AsciiDoc can markup complex technical articles. For example, AsciiDoc makes it easy to include a source listing, to prettify it, add numbering, and highlight portions of code.
 
-== The importance of expressive syntax
+== Expressive syntax is more easily single-sourced
 
 AsciiDoc is expressive enough to handle complex writing requirements without intermixing HTML or short codes. Content written in AsciiDoc is easily convertable to other formats. You can convert Markdown to HTML, but it is not easy to convert Markdown to other formats if inline HTML or short codes were mixed in to add expressiveness. This makes Markdown less useful for single-sourcing projects.
