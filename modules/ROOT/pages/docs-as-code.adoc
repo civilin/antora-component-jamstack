@@ -6,16 +6,17 @@ endif::[]
 :idprefix:
 :idseparator: -
 
-"Docs-as-code" refers to the process of writing documentation using the same tools that programmers use to manage source code. A writer who learns these tools can more easily manage files, and versions of publications or websites.
+"*Docs-as-code*" refers to the process of writing documentation using the same tools that programmers use to manage source code.
 
-* Instead of writing statements in a programming language, writers compose text in a lightweight markup language such as AsciiDoc, Markdown, or reStructuredText.
+By applying software development processes and tools to technical documentation, writers can more easily manage files and versions of publications or websites.
 
-* Content is managed in a version control system, such as Git or Bitbucket.
+* Instead of writing statements in a programming language, writers compose text in a *lightweight markup language* such as AsciiDoc, Markdown, or reStructuredText. Content is saved in plain text files.
 
-* Writers use an issue tracker such as JIRA, to manage tasks and projects.
+* Content is stored in a *version control system*, such as Git or Bitbucket.
 
-* Very often, a static site generator, such as Antora, Jekyll, or Hugo, is used to build a website.
+* Writers use an *issue tracker* such as JIRA, to manage tasks and projects.
 
+* Websites are built using a *static site generator*, such as Antora, Jekyll, or Hugo. The site generator uses a template to control the appearance and layout of the website. Content is separated from presentation, thereby keepoing documentation consistent across products and teams.
 
 .Related topics
 * http://www.writethedocs.org/guide/docs-as-code/
