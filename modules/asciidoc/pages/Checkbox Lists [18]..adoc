@@ -1,0 +1,25 @@
+== Checkbox lists
+
+Checklists (i.e., task lists) are unordered lists that have items marked as checked ([*] or [x]) or unchecked ([ ]). Checked lists can be nested like other lists.
+
+----
+
+.Check this out!
+
+* [*] checked
+
+* [x] checked
+
+* [ ] not checked
+
+----
+
+'''
+
+.Check this out!
+
+* [*] checked
+
+* [x] checked
+
+* [ ] not checked

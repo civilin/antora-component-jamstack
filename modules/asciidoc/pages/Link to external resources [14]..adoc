@@ -1,0 +1,35 @@
+== Link to external resources
+
+.Automatically converted links
+
+AsciiDoc automatically recognizes web addresses. If you type a URL, it is automatically converted to a hyperlink. AsciiDoc recognizes `http`, `https`, `ftp`, `irc`, `mailto`, and `email@email.com`.
+
+----
+
+The homepage for the Asciidoctor Project is http://www.asciidoctor.org.
+
+----
+
+The homepage for the Asciidoctor Project is http://www.asciidoctor.org.
+
+.Manually created links
+
+To create a hyperlink, type a url. Then enclose the link text in square brackets at the end of the URL.
+
+----
+
+For more information, see our http://www.inin.com[web site].
+
+----
+
+For more information, see our http://www.inin.com[web site].
+
+Additionally, you can format the linked text. For example, to show a link in bold:
+
+----
+
+Ask questions on the http://discuss.asciidoctor.org/[*mailing list*].
+
+----
+
+Ask questions on the http://discuss.asciidoctor.org/[*mailing list*].

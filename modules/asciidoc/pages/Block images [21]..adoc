@@ -1,0 +1,33 @@
+= Block images
+
+Most figures are block images, wherein the image appears on its own line. You must specify the filename, and  optionally include size, accessibility text, and link parameters.
+
+----
+
+image::filename.ext[]
+
+or
+
+image::filename.ext[x,y,accessibility_text,link="url"]
+
+----
+
+For example:
+
+----
+
+image::avatar.png[]
+
+.A figure with a hyperlink
+
+image::avatar.png[40,40,image of an avatar,link="http://www.inin.com"]
+
+----
+
+'''
+
+image::avatar.png[]
+
+.A figure with a hyperlink
+
+image::avatar.png[40,40,image of an avatar,link="http://www.inin.com"]

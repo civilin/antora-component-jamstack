@@ -1,0 +1,101 @@
+[[HID_TABLES]]
+
+== Tables
+
+AsciiDoc provides full-featured table support. This sets it apart from other markup languages.  Here's how to create a simple table with a heading row and column width percentages:
+
+----
+
+[cols="30,70",options="header"]
+
+|===
+
+| Team | Team Members
+
+| PureCloud Doc Team | Clay, Andy, Jeff, Derek, Jordan, Steve
+
+| CIC Doc Team | Everybody else.
+
+|===
+
+----
+
+[cols="30,70",options="header"]
+
+|===
+
+| Team | Team Members
+
+| PureCloud Doc Team | Clay, Andy, Jeff, Derek, Jordan, Steve
+
+| CIC Doc Team | Everybody else.
+
+|===
+
+If a table has many columns, you can _vertically_ organize the information in each row. Give each cell its own line, and leave a blank line between rows.
+
+----
+
+[cols="30,70",options="header"]
+
+|===
+
+| Team 
+
+| Team Members
+
+| PureCloud Doc Team 
+
+| Clay, Andy, Jeff, Derek, Jordan, Steve
+
+| CIC Doc Team 
+
+| Everybody else.
+
+|===
+
+----
+
+As you can see, the vertical arrangement produces the same result. In my opinion, complex tables are easier to maintain when information is stacked vertically.
+
+[cols="30,70",options="header"]
+
+|===
+
+| Team 
+
+| Team Members
+
+| PureCloud Doc Team 
+
+| Clay, Andy, Jeff, Derek, Jordan, Steve
+
+| CIC Doc Team 
+
+| Everybody else.
+
+|===
+
+====
+
+AsciiDoc supports alignment within cells, row and column spans, header rows, footer rows, and many other options not described here. For information about these advanced options, see the http://asciidoctor.org/docs/user-manual/#tables[documentation].
+
+====
+
+.Tables created from CSV files
+
+You can display an link:feature_matrix.csv[external .CSV file] as a table. This is a special type of `include`.
+
+image::csv_table.png[]
+
+The _cols_ attribute in this example left aligns the first column, and centers all other columns. Here how the table appears after the data is read:
+
+[cols="<,^,^,^,^,^",format="csv", options="header"]
+
+|===
+
+include::feature_matrix.csv[]
+
+|===
+
+TIP: AsciiDoc's native support of tables makes it possible to single-source complex content into many formats.  Its ability to describe every element found in print makes AsciiDoc applicable to most writing projects.

@@ -1,0 +1,44 @@
+[[HID_ADMONITION_BLOCKS]]
+= Admonition Blocks
+
+----
+
+[NOTE]
+
+====
+
+An admonition block may contain complex content--more than a single paragraph.
+
+.A block title
+
+- one
+
+- two
+
+- three
+
+Another paragraph.
+
+====
+
+----
+
+*Result:*
+
+[NOTE]
+
+====
+
+An admonition block may contain complex content--more than a single paragraph.
+
+.A block title
+
+- one
+
+- two
+
+- three
+
+Another paragraph.
+
+====

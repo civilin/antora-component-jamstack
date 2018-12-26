@@ -1,2 +1,19 @@
 .AsciiDoc
 * xref:about-asciidoc.adoc[About AsciiDoc]
+.Learn AsciiDoc Today
+// These articles come from the adoc-module of site-home-component
+* xref:what-is-asciidoc.adoc[What is AsciiDoc?]
+* xref:editors.adoc[Editors]
+// Basic Markup
+* xref:basic-markup.adoc[Basic Markup]
+** xref:document-title.adoc[Document Title]
+** xref:headings.adoc[Headings]
+** xref:paragraphs.adoc[Paragraphs]
+** xref:formatted-text.adoc[Formatted Text]
+** xref:admonitions.adoc[Admonitions]
+** xref:admonition-blocks.adoc[Admonition Blocks]
+** xref:block-titles.adoc[Block Titles (sub-headings)]
+** xref:explicit-identifiers.adoc[Explicit identifiers]
+** xref:link-to-explicit-identifiers.adoc[Link to explicit identifiers]
+// after everything else, link to docs
+* xref:asciidoc-doc-links.adoc[AsciiDoc Documentat

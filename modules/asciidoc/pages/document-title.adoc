@@ -1,0 +1,13 @@
+= Document Title
+
+The first line in a file is optionally the document's title.
+
+....
+
+= My Document Title
+
+author name <email address> (optional)
+
+Revision Number, date (optional)
+
+....

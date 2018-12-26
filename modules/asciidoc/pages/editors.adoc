@@ -1,0 +1,21 @@
+= Editors
+
+You can compose AsciiDoc using any plain text editor. I recommend using one that supports _live preview_, a feature that shows how the markup will look as you are writing it. Syntax highlighting is another desirable feature. To add these features to an editor, download free plugins from GitHub. The editors I have used are:
+
+AsciiDocFX:: This open source editor from a developer in western Europe is specifically designed for AsciiDoc. It's new and incomplete, but offers features no other editor has. For example, it offers a TOC that shows heading structure. If paste text from a web page into this editor, the HTML is automatically converted to AsciiDoc.
+
++
+
+.HTML pasted into AsciiDocFX is automatically converted
+
+image::AsciidocFX.png[]
+
+Atom:: Highly recommended. This excellent free editor supports live preview and syntax highlighting (via plugins).
+
++
+
+image::Atom.png[]
+
+Brackets:: Similar to Atom, since both are based on open source web engines. An AsciiDoc plugin is available. I personally have not used this editor, so I can't say much about it.
+
+Sublime:: Many programmers prefer this editor. It supports plugins for live preview and syntax highlighting. Sublime can also be configured to run AsciiDoctor with compilation presets, to generate content using different stylesheets, or different types of content. In practice, this is difficult to set up.

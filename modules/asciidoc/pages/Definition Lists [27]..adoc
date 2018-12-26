@@ -1,0 +1,47 @@
+== Definition Lists
+
+Definition lists display name/value pairs of some type--terms or options on a screen, for example.
+
+The syntax is:
+
+----
+
+term:: description
+
+term:: description
+
+----
+
+Definition lists can be horizontal or vertically aligned. Vertical layout is the default. 
+
+----
+
+AsciiDoc:: A text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, and man pages.
+
+AsciiDoctor:: Asciidoctor is a fast text processor and publishing toolchain for converting AsciiDoc content to HTML5, EPUB3, PDF, DocBook 5 (or 4.5) slidedecks and other formats.
+
+----
+
+AsciiDoc:: A text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, and man pages.
+
+AsciiDoctor:: Asciidoctor is a fast text processor and publishing toolchain for converting AsciiDoc content to HTML5, EPUB3, PDF, DocBook 5 (or 4.5) slidedecks and other formats.
+
+'''
+
+To use a horizontal layout:
+
+----
+
+[horizontal]
+
+AsciiDoc:: A text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, and man pages.
+
+AsciiDoctor:: Asciidoctor is a fast text processor and publishing toolchain for converting AsciiDoc content to HTML5, EPUB3, PDF, DocBook 5 (or 4.5) slidedecks and other formats.
+
+----
+
+[horizontal]
+
+AsciiDoc:: A text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, and man pages.
+
+AsciiDoctor:: Asciidoctor is a fast text processor and publishing toolchain for converting AsciiDoc content to HTML5, EPUB3, PDF, DocBook 5 (or 4.5) slidedecks and other formats.

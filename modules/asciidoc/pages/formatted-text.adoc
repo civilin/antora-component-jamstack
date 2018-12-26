@@ -1,0 +1,19 @@
+= Formatted text
+
+Text is easily formatted to appear *bold*, _italic_, or *_bold and italic_*.  You can also pass:q[<u>underline text</u>] or #highlight# text. Here's how:
+
+----
+
+Text is easily formatted to appear *bold*, _italic_, or *_bold and italic_*.  You can also pass:q[<u>underline text</u>] or #highlight# text.
+
+----
+
+Bold:: To make a range of text bold, enclose it in a pair of asterisks. For example, `pass:[*bold text*]` renders *bold text*.
+
+Italic:: To italicize a range of text, enclose the range in a pair of underscores. For example, `pass:[_italic text_]` renders _italic text_.
+
+Bold and Italic:: To apply bold and italic, use both identifiers. For example, `pass:[*_bold and italic text_*]` renders *_bold and italic text_*.
+
+Underline:: AsciiDoc does not have built-in markup to underline text. But you can pass:q[<u>underline text</u>] using work arounds. See Inline pass macro and explicit substitutions in the https://asciidoctor.org/docs/user-manual[Asciidoctor User Manual^].
+
+Highlight:: To highlight a range of text, enclose the range in a pair of # characters. Example: pass:[#highlighted text#] renders as #highlighted text#.

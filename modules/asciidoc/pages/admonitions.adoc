@@ -1,0 +1,38 @@
+[[HID_ADMONITIONS]]
+= Admonitions
+
+// steve this topic contains a link that needs to be fixed (see link to admonition block)
+
+NOTE: An admonition paragraph draws the reader's attention to auxiliary information. Its purpose is determined by the label at the beginning of the paragraph.
+
+Admonitions are notes, tips, warnings, or cautions. To create an admonition:
+
+. Type `NOTE`, `TIP`, `IMPORTANT`, `CAUTION`, or `WARNING` in upper case, followed by a colon and space.
+
+.  Then type your message to the reader. If you need more than 1 paragraph, use an <<HID_ADMONITION_BLOCKS, admonition block>> instead.
+
+----
+
+NOTE: Did you know...
+
+TIP: Pro tip...
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that...
+
+----
+
+'''
+
+NOTE: Did you know...
+
+TIP: Pro tip...
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that...

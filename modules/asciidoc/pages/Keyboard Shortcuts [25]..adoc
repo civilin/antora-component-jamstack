@@ -1,0 +1,67 @@
+== Keyboard Shortcuts
+
+AsciiDoc provides a syntax for rending keyboard shortcuts. This feature requires the `:experimental:` attribute. At the top of the file above the document title, include:
+
+----
+
+:experimental:
+
+----
+
+[cols="30,70", options="header", caption=""]
+
+.Common browser keyboard shortcuts
+
+|===
+
+|Shortcut |Purpose
+
+|kbd:[F11]
+
+|Toggle fullscreen
+
+|kbd:[Ctrl+T]
+
+|Open a new tab
+
+|kbd:[Ctrl+Shift+N]
+
+|New incognito window
+
+|kbd:[Ctrl + +]
+
+|Increase zoom
+
+|===
+
+Here's the source:
+
+----
+
+[cols="40,60", options="header", caption=""]
+
+.Common browser keyboard shortcuts
+
+|===
+
+|Shortcut |Purpose
+
+|kbd:[F11]
+
+|Toggle fullscreen
+
+|kbd:[Ctrl+T]
+
+|Open a new tab
+
+|kbd:[Ctrl+Shift+N]
+
+|New incognito window
+
+|kbd:[Ctrl + +]
+
+|Increase zoom
+
+|===
+
+----

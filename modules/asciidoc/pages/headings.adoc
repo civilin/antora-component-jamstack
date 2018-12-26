@@ -1,0 +1,28 @@
+= Headings
+
+AsciiDoc supports 5 levels of headings. To define a heading, type 1 to 5 equal signs followed by a space, before the title text. A blank line must follow the heading. In documentation, headings are sometimes called `section titles`.
+// When pages are chunked, headings denote the start of a new HTML page.
+
+....
+
+= Heading 1
+
+Nullam quis risus eget urna mollis ornare vel eu leo.
+
+== Heading 2
+
+Maecenas faucibus mollis interdum.
+
+=== Heading 3
+
+Donec id elit non mi porta gravida at eget metus.
+
+==== Heading 4
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+===== Heading 5
+
+Vestibulum id ligula porta felis euismod semper.
+
+....

@@ -1,0 +1,27 @@
+== Glossary Terms
+
+You can include a glossary of definitions by including the [glossary] marker before the section header and before the first definition. This distinguishes glossary terms from other definition lists, so that toolchains can render glossaries differently.
+
+----
+
+[glossary]
+
+== Example Glossary
+
+[glossary]
+
+mud:: wet, cold dirt
+
+rain:: water falling from the sky
+
+----
+
+[glossary]
+
+== Example Glossary
+
+[glossary]
+
+mud:: wet, cold dirt
+
+rain:: water falling from the sky

@@ -1,0 +1,12 @@
+[[HID_EXPLICIT_IDENTIFIERS]]
+= Explicit Identifiers 
+
+Any location in a document can be given an name (identifier or context ID if you prefer). The identifier can be any name you like, so long is it does not contain spaces.  For example, to assign an id named `HID_INSTALLATION` to a heading, you would enclose that identifier in two sets of square braces:
+
+----
+
+[[HID_INSTALLATION]]
+
+== Installation
+
+----

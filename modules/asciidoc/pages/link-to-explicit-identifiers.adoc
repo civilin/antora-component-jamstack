@@ -1,0 +1,11 @@
+== Link to explicit Identifiers
+
+It's easy to create a hyperlink that jumps to an identifier in the current document. To say: See <<HID_WHAT_IS_LIGHTWEIGHT_MARKUP, What is lightweight markup?>> type:
+
+----
+
+See <<HID_WHAT_IS_LIGHTWEIGHT_MARKUP, What is lightweight markup?>>
+
+----
+
+I prefer upper case identifiers since that makes it easier to distinguish between the identifier and the text of a link. However, identifiers can be anything you like.

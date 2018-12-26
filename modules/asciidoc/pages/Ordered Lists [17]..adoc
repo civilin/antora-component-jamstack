@@ -1,0 +1,129 @@
+== Ordered Lists
+
+To create a numbered list, you can type:
+
+----
+
+1. Clay
+
+2. Jeff
+
+3. Andy
+
+----
+
+1. Clay
+
+2. Jeff
+
+3. Andy
+
+.Automatic numbering
+
+That works, but you must manually keep the numbers sequential. It's better to leave the numbers out. Type a period, followed by a space, and then the text of the list item.
+
+----
+
+. Clay
+
+. Jeff
+
+. Andy
+
+----
+
+. Clay
+
+. Jeff
+
+. Andy
+
+.Nested Numbered lists
+
+To nest items, use one or more periods:
+
+----
+
+. Clay
+
+. Jeff
+
+.. Steve
+
+.. Jordan
+
+. Andy
+
+.. Derek
+
+----
+
+. Clay
+
+. Jeff
+
+.. Steve
+
+.. Jordan
+
+. Andy
+
+.. Derek
+
+.Mixing list types
+
+Here’s an example of nesting an unordered list inside of an ordered list:
+
+----
+
+. Linux
+
+* Fedora
+
+* Ubuntu
+
+* Slackware
+
+. BSD
+
+* FreeBSD
+
+* NetBSD
+
+----
+
+. Linux
+
+* Fedora
+
+* Ubuntu
+
+* Slackware
+
+. BSD
+
+* FreeBSD
+
+* NetBSD
+
+.To manually set starting number
+
+----
+
+[start=4]
+
+. Clay
+
+. Jeff
+
+. Andy
+
+----
+
+[start=4]
+
+. Clay
+
+. Jeff
+
+. Andy

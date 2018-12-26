@@ -1,0 +1,15 @@
+== Inline images
+
+Inline images are similar to block images. Use a single colon instead of two colons.
+
+----
+
+image:filename.ext[]
+
+.Example inline image
+
+To view a user profile, click on the avatar image:avatar.png[20,20] icon
+
+----
+
+To view a user profile, click on the avatar image:avatar.png[20,20] icon

@@ -1,0 +1,35 @@
+== Floating images
+
+To wrap text around an image, use a float group. You an read more about float-groups in the http://asciidoctor.org/docs/user-manual/#control-the-float[documentation]. Here's a simple example.
+
+----
+
+[.float-group]
+
+--
+
+image:avatar.png[role="left"] Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+
+--
+
+----
+
+[.float-group]
+
+--
+
+image:avatar.png[role="left"] Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+
+--
+
+You can float images without placing the image in a float group. For more information, see http://asciidoctor.org/docs/user-manual/#put-images-in-their-place.
+
+.Example floating inline image, pulled to the right of paragraph text
+
+----
+
+image:avatar.png[Picture of an Avatar,50,50,float="right"]Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  
+
+----
+
+image:avatar.png[Picture of an Avatar,50,50,float="right"]Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  

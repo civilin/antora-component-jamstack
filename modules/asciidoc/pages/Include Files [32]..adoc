@@ -1,0 +1,11 @@
+== Include Files
+
+You can include one AsciiDoc file inside another, and optionally specify a heading level for the included content. The syntax is: `include::filename.adoc[]`.  The example below inserts an entire User Guide one level below this topic.
+
+image::include_directive.png[]
+
+:leveloffset: +2
+
+include::AsciiDoc_User_Guide.adoc[]
+
+:leveloffset: -2

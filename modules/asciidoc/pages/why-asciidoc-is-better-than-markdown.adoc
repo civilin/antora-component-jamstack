@@ -1,0 +1,21 @@
+= Why AsciiDoc is better than Markdown
+
+For simple jobs, Markdown and AsciiDoc are similar. There isn't much difference until you need to do something that Markdown lacks a syntax to describe. For example, Markdown can't create complex tables or float text around images. It doesn't support definition lists, citations, mathematics, and footnotes. It can't open a web link in a new window. The original Markdown specification does not support these things.
+
+Writers of Markdown work around limitations in several ways:
+
+* They mix HTML with Markdown. Because Markdown permits snippets of HTML to be embedded, Markdown files contain both Markdown and HTML syntaxes. This works fine when HTML is generated, but embedded HTML is not always convertible to other formats.
+
+* Writers of Markdown turn to _flavors_ of Markdown intended to address limitations of the original specification. Many variants of Markdown now exist. Some do an excellent job of extending the original specification--CommonMark for example. But no single flavor has been adopted by the major tools that process Markdown files. With more than  https://github.com/commonmark/commonmark/wiki/Markdown-flavors[30 flavors of Markdown^] competing for support, it is fair to conclude that Markdown syntax is highly fragmented.
+
+* Markdown is widely supported by _static site generators_, more so than AsciiDoc. Static site generators are programs that process lightweight markup files to build a website. Jekyll and Hugo are currently the most popular static site generators. https://jekyllrb.com/[Jekyll] supports https://kramdown.gettalong.org/syntax.html[kramdown], https://github.com/vmg/redcarpet[RedCarpet], and https://github.com/davidfstr/rdiscount[RDiscount] flavors of Markdown. https://gohugo.io[Hugo] supports https://github.com/russross/blackfriday[Blackfriday] and https://github.com/miekg/mmark[Mmark] flavors of Markdown, plus a slew of https://gohugo.io/content-management/shortcodes/[shortcodes] that further extend the syntax in ways only Hugo can recognize.
++
+Writers of Markdown can't select a flavor based on how well that flavor supports their writing needs. They must use whatever flavor is supported by their preferred toolchain. This is problematic. For example, kramdown is the only option with Jekyll, if the website will be hosted on GitHub pages.
+
+Jekyll and Hugo both support AsciiDoc, but Antora is the premier site generator to use with AsciiDoc. Antora is optimized for technical writing. Unlike Jekyll or Hugo, Antora is designed to publish versioned documentation. Antora is ideal for teams who use source control.
+
+== Why AsciiDoc is more expressive than Markdown
+
+Markdown is shorthand for a subset of HTML, whereas AsciiDoc is shorthand for the parts of print publications. Since AsciiDoc corresponds semantically to the DocBook DTD, AsciiDoc can markup complex technical articles. For example, AsciiDoc makes it easy to include a source listing, to prettify it, add numbering, and highlight portions of code.
+
+AsciiDoc is excellent for single-sourcing, since its markup does not rely on HTML or short codes to handle complex writing requirements.

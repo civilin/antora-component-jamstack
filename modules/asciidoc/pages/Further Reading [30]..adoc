@@ -1,0 +1,9 @@
+== Further Reading
+
+Here's where to go if you are interested in learning more about AsciiDoc.
+
+http://asciidoctor.org and http://asciidoctor.org/docs/:: Dan Allen rewrote the toolchain in Ruby to make it 20x faster than before. Thanks to Dan and his port of AsciiDoc to modern languages (including JavaScript), a growing number of developers have added AsciiDoc support to their products. 
+
+http://mrhaki.blogspot.com/2015/04/aweseome-asciidoctor-notebook-is.html::  Hubert Klein Ikkink blogs about AsciiDoc. He compiled an "Awesome AsciiDoctor Notebook" you can download for free. 
+
+http://asciidoc.org:: This is Stewart Packham's original website. He no longer updates the site or the specification, but his site is a trove of useful information about the markup and toolchains Stewart created to process it.

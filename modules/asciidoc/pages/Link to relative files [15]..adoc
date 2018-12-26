@@ -1,0 +1,17 @@
+== Link to relative files
+
+To link to a file that is relative in location to the document, use a link macro in front of the file name.
+
+----
+
+Syntax:
+
+See link:filename.ext[title of the link]
+
+Example:
+
+See link:Top10GlobalEnglish.pdf[The Top Ten Global English Guidelines]
+
+----
+
+See link:Top10GlobalEnglish.pdf[The Top Ten Global English Guidelines]

@@ -1,0 +1,25 @@
+== Menu Selections
+
+You can mark up text to insert a caret between menu selections, without using a graphic. This feature requires the `:experimental:` attribute. At the top of the file above the document title, include:
+
+----
+
+:experimental:
+
+----
+
+Then use this markup for menu items:
+
+----
+
+To save the file, select menu:File[Save].
+
+Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
+
+----
+
+The result is:
+
+To save the file, select menu:File[Save].
+
+Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.

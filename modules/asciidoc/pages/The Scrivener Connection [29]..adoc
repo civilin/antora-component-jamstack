@@ -1,0 +1,19 @@
+== The Scrivener Option
+
+AsciiDoc works nicely with Scrivener. I manage the AsciiDoc source of PureCloud Supervisor in a Scrivener project. Scrivener adds these features:
+
+* It stores snapshots of topics that I'm editing, so that I can roll back a change if I like.
+
+* It allows me to keep track of what must change in a document.
+
+* It manages my notes and links to external information.
+
+* It allows me to include or exclude topics at will.
+
+* It exports topics to a single file, which I later process using AsciiDoctor.
+
+Scrivener isn't a requirement. If anyone needs to assume ownership of this project, they can use Scrivener or any other editor.
+
+Scrivener has a very interesting synch feature. It can create a file for each topic in a folder. This allows use of any editor or tool to work with the content. Afterward, Scrivener can synch that content to update its internal stores. 
+
+Initially I thought I would use this feature often, but once I became more familiar with AsciiDoc, my need to use a syntax-highlighting editor diminished somewhat.

@@ -1,0 +1,25 @@
+== Generating output
+
+To convert iOS Supervisor source to HTML:
+
+. If using Scrivener, export the topics to an .adoc file.
+
+. Open Terminal
+
+. Type CD followed by a space.
+
+. Open Finder. Navigate to the folder containing the .adoc file.
+
+. Drag and drop that folder into the Terminal window.
+
+. Type `*asciidoctor ios_supv.adoc*` and then press kbd:[Enter]. After a second or two, a file named _ios_supv.html_ is created in that folder.
+
+. Proof read the HTML. When it's good to go, send the following files to link:mailto:frderic.Bronner@inin.com[Frederic Bronner]:
+
++
+
+* ios_supv.html
+
+* images folder
+
+* styles folder

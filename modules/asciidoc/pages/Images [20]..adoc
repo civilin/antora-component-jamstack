@@ -1,0 +1,3 @@
+== Images
+
+Images can be displayed in *block* form, *inline*, or in a *float group* that allows text to flow around the image.

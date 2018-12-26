@@ -1,0 +1,5 @@
+= AsciiDoc Documentation
+
+Excellent documentation is available online. A great place to start is link:http://asciidoctor.org[asciidoctor.org^]. There you'll find installation instructions and recent documentation.  That site is managed by Dan Allen, who champions AsciiDoc in the open source community.
+
+Stewart Packham, the creator of AsciiDoc, has another great site--link:http://asciidoc.org[asciidoc.org]. Stewart stopped updating his website in 2013 after handing the baton to Dan. His site describes the specification in depth but you should explore asciidoctor.org first.

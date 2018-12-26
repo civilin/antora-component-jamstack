@@ -1,0 +1,75 @@
+== Block titles (sub-headings)
+
+Block titles are headings that don't appear in the table of contents. A block title is a line of text that starts with a period. The period cannot be followed by a space. Figures or tables with block titles are automatically numbered. Paragraphs with block titles are not numbered.
+
+----
+
+.This is a block title
+
+Vestibulum id ligula porta felis euismod semper.
+
+.This figure has a block title.
+
+image::geopattern.jpeg[]
+
+----
+
+*Example:*
+
+.This is a block title
+
+Vestibulum id ligula porta felis euismod semper.
+
+.This figure has a block title.
+
+image::geopattern.jpeg[]
+
+You can use block titles with <<HID_ADMONITION_BLOCKS, admonition blocks>> and <<HID_TABLES, tables>>. Here's an example:
+
+[CAUTION]
+
+====
+
+.Always make sure your pistol is unloaded.
+
+. Remove the magazine.
+
+. Rack the slide to eject any cartridge from the chamber.
+
+. Lock the slide in the open position.
+
+. Examine the firing chamber to ensure it does not contain a round.
+
+. Unlock the slide.
+
+. Point the pistol in a safe direction.
+
+. Squeeze the trigger to de-cock the striker.
+
+====
+
+....
+
+[CAUTION]
+
+====
+
+.Always make sure your pistol is unloaded.
+
+. Remove the magazine.
+
+. Rack the slide to eject any cartridge from the chamber.
+
+. Lock the slide in the open position.
+
+. Examine the firing chamber to ensure it does not contain a round.
+
+. Unlock the slide.
+
+. Point the pistol in a safe direction.
+
+. Squeeze the trigger to de-cock the striker.
+
+====
+
+....
