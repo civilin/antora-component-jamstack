@@ -15,7 +15,7 @@ Think of AsciiDoc as _shorthand_ for composing sophisticated content in plain te
 
 * Technical writers like AsciiDoc because it is more flexible than wysiwyg editors, and less complicated than <tagging> text.
 
-* AsciiDoc is easy for humans to read, even if they don't know AsciiDoc markup.
+* Reviewers like AsciiDoc, because it is easy for people to read, even if they don't know AsciiDoc syntax.
 
 AsciiDoc markup is 100% _semantic_, but it is not a formatting tool. AsciiDoc markup correlates to DocBook DTD elements. Since AsciiDoc can describe anything that DocBook can, it can describe almost anything you will find in a book.
 
