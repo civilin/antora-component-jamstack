@@ -1,0 +1,44 @@
+= Using iframes in AsciiDoc
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
+:variable: Steve
+:url: https://apps.fedoraproject.org/packages/rubygem-asciidoctor
+:iframe: <p><iframe src="{url}"></iframe></p>
+
+It may not be possible to do iframes in Antora. This page is a test, and I have not found a solution yet.
+
++++{iframe}+++
+
+## Test 2
+
+{iframe}
+
+## Test 3
+
+pass:[content like {variable} passed directly to the output] followed by normal content. The pass macro does not appear to work at all.
+
+## Test 4
+
+++++
+pass:[{iframe}]
+++++
+
+## Test 5
+
+pass: [{iframe}]
+
+## Test 6
+
+++++
+{iframe}
+++++
+
+## Test 7 Open Block
+
+--
+{iframe}
+--

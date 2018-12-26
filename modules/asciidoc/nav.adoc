@@ -15,3 +15,5 @@
 *** xref:link-to-explicit-identifiers.adoc[Link to explicit identifiers]
 // after everything else, link to docs
 * xref:asciidoc-doc-links.adoc[AsciiDoc Documentation]
+.Other
+* xref:iframe.adoc[Using iframes in AsciiDoc]
