@@ -1,6 +1,6 @@
 * Antora
 ** xref:about-antora.adoc[About Antora]
 ** xref:why-antora-is-awesome.adoc[Why Antora is awesome]
-* Antora-related articles & links
-** link:antora/{attachmentsdir}/why-antora.pdf[image:pdf-icon.png[]Why Antora Is The Leading Technical Writing Platform^]
-** https://docs.antora.org/[image:ext-link.png[]Antora documentation^]
+** Antora-related articles & links
+*** link:antora/{attachmentsdir}/why-antora.pdf[image:pdf-icon.png[] Why Antora Is The Leading Technical Writing Platform^]
+*** https://docs.antora.org/[image:ext-link.png[] Antora documentation^]
