@@ -19,12 +19,9 @@ I have not found a good way to embed +++<u>iframes</u>+++ in Antora, except to h
 <p><iframe allow="fullscreen"  src="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html"></iframe></p>
 
 <style>
-html{ height: 100%; }
-
 iframe {
     border: 1px solid black;
     width: 100%;
-    height: 1024px;
 }
 </style>
 ++++
