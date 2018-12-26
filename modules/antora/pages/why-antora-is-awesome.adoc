@@ -1,0 +1,10 @@
+= Why Antora is awesome
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
+
+Explain here what makes Antora better than Jekyll or Hugo, especially when used for technical writing.

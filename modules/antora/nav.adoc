@@ -1,2 +1,3 @@
 .Antora
 * xref:about-antora.adoc[About Antora]
+** xref:why-antora-is-awesome.adoc[Why Antora is awesome]
