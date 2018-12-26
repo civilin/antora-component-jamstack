@@ -15,7 +15,7 @@ It may not be possible to do +++<u>iframes</u>+++ in Antora. This page is a test
 == Just hard code it
 
 ++++
-<p><iframe src="https://help.mypurecloud.com/articles/queues/"></iframe></p>
+<p><iframe src="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html"></iframe></p>
 ++++
 
 == Allow attributes to be substituted
