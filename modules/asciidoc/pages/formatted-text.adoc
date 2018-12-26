@@ -14,6 +14,6 @@ Italic:: To italicize a range of text, enclose the range in a pair of underscore
 
 Bold and Italic:: To apply bold and italic, use both identifiers. For example, `pass:[*_bold and italic text_*]` renders *_bold and italic text_*.
 
-Underline:: AsciiDoc does not have built-in markup to +++<u>underline</u>+++ text. But you can pass:q[<u>underline text</u>] using work arounds. See Inline pass macro and explicit substitutions in the https://asciidoctor.org/docs/user-manual[Asciidoctor User Manual^]. Also https://asciidoctor.org/docs/user-manual/#triple-plus-passthrough[Triple plus passthrough].
+Underline:: AsciiDoc does not have built-in markup to +++<u>underline</u>+++ text. But you can pass:q[<u>underline text</u>] using work arounds. See Inline pass macro and explicit substitutions in the https://asciidoctor.org/docs/user-manual[Asciidoctor User Manual^]. Also https://asciidoctor.org/docs/user-manual/#triple-plus-passthrough[Triple plus passthrough^].
 
 Highlight:: To highlight a range of text, enclose the range in a pair of # characters. Example: pass:[#highlighted text#] renders as #highlighted text#.
