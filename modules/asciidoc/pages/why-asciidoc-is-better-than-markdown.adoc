@@ -1,4 +1,6 @@
-= Why AsciiDoc is better for technical writing than Markdown
+= Why AsciiDoc is better for technical writing
+
+> Since Asciidoc is expressive enough 
 
 For simple jobs, Markdown and AsciiDoc are similar. There isn't much difference until you need to do something that Markdown lacks a syntax to describe. For example, Markdown can't create complex tables or float text around images. It doesn't support definition lists, citations, mathematics, and footnotes. It can't open a web link in a new window. The original Markdown specification does not support these things.
 
