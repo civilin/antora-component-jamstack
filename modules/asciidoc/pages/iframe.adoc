@@ -18,46 +18,4 @@ endif::[]
 <p><iframe width="100%" height="100%"  src="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html"></iframe></p>
 ++++
 
-\\\\
-== These all failed
-
-== Allow attributes to be substituted
-
-[subs=attributes]
-++++
-{iframe}
-++++
-
-== Try the pass macro
-{iframe2}
-
-== Test 2
-
-{iframe}
-
-## Test 3
-
-pass:[content like {variable} passed directly to the output] followed by normal content. The pass macro does not appear to work at all.
-
-== Test 4
-
-++++
-pass:[{iframe}]
-++++
-
-== Test 5
-
-pass: [{iframe}]
-
-== Test 6
-
-++++
-{iframe}
-++++
-
-== Test 7 Open Block
-
---
-{iframe}
---
-\\\\
+This is regular text.
