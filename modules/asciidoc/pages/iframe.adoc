@@ -1,4 +1,4 @@
-= Using iframes in AsciiDoc #2
+= Using iframes in AsciiDoc
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
