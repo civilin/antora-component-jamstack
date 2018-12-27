@@ -10,10 +10,12 @@ Here's how to embed a responsive iframe in Antora, by hard coding HTML and CSS i
  +
 // Source for this technique: https://benmarshall.me/responsive-iframes/
 // https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html
+// https://neveruntilnow.com/kit/index.html
+// https://neveruntilnow.com/docsite/markup/index.html
 ++++
 <!-- HTML to embed an iframe -->
 <div class="iframe-container">
-  <iframe src="https://neveruntilnow.com/kit/index.html" frameborder="0"></iframe>
+  <iframe src="https://neveruntilnow.com/docsite/markup/index.html" frameborder="0"></iframe>
 </div>
 
 <!-- CSS to make the iframe responsive -->
