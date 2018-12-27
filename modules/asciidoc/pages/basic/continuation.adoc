@@ -23,7 +23,7 @@ Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravi
 ----
 * The quick brown fox jumped over the lazy dog.
 +
-image::avatar.png[]
+image:avatar.png[]
 * Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
 ----
 
@@ -31,5 +31,5 @@ image::avatar.png[]
 
 * The quick brown fox jumped over the lazy dog.
 +
-image::avatar.png[]
+image:avatar.png[]
 * Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
