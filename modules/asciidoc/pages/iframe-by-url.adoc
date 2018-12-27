@@ -7,18 +7,10 @@ endif::[]
 :idseparator: -
 
 ++++
-<a href="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html" target="frame">Multimedia Example</a>
-<a https://neveruntilnow.com/kit/index.html" target="frame">StoryTeller's Kit</a>
-<a href="https://neveruntilnow.com/docsite/markup/index.html">Lightweight Markup Presentation</a>
-++++
+<p><a href="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html" target="frame">Multimedia Example</a></p>
+<p><a href="https://neveruntilnow.com/kit/index.html" target="frame">StoryTeller's Kit</a></p>
+<p><a href="https://neveruntilnow.com/docsite/markup/index.html">Lightweight Markup Presentation</a></p>
 
-You can display an external web page inside an AsciiDoc file, by placing an HTML iframe element in a <<tryit,passthrough block>>. A few lines of CSS will make the iframe responsive. Here's an example, courtesy of the US Postal Service: +
- +
-// Source for this technique: https://benmarshall.me/responsive-iframes/
-// https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html
-// https://neveruntilnow.com/kit/index.html
-// https://neveruntilnow.com/docsite/markup/index.html
-++++
 <!-- HTML to embed an iframe -->
 <div class="iframe-container">
   <iframe name="frame" src="https://www.usps.com/" frameborder="0"></iframe>
@@ -41,6 +33,7 @@ position: relative;
 }
 </style>
 ++++
+
 [#tryit]
 == Try it yourself
 
