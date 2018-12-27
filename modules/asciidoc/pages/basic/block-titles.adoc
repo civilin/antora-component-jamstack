@@ -10,7 +10,7 @@ Vestibulum id ligula porta felis euismod semper.
 
 .This figure has a block title.
 
-image::geopattern.jpeg[]
+image:geopattern.jpeg[]
 
 ----
 
@@ -22,7 +22,7 @@ Vestibulum id ligula porta felis euismod semper.
 
 .This figure has a block title.
 
-image::geopattern.jpeg[]
+image:geopattern.jpeg[]
 
 You can use block titles with <<HID_ADMONITION_BLOCKS, admonition blocks>> and <<HID_TABLES, tables>>. Here's an example:
 
