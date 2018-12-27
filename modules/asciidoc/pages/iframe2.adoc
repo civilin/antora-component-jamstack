@@ -8,13 +8,11 @@ endif::[]
 
 I have not found a better way to embed +++<u>iframes</u>+++ in Antora, except to hard code the whole thing in a pass through block:
 
-Please work.
-
 // To hard code it:
 
 ++++
 <div class="iframe-container">
-  <iframe src="https://pressureluckcooking.com/recipe/instant-pot-roast/" frameborder="0"></iframe>
+  <iframe src="https://news.google.com/articles/CAIiEMXYemvJAzZnUPrrja_Yp3sqGQgEKhAIACoHCAowvIaCCzDnxf4CMP2F8gU?hl=en-US&gl=US&ceid=US%3Aen" frameborder="0"></iframe>
 </div>
 s
 <style>
