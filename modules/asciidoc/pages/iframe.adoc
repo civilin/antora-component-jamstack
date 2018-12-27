@@ -6,7 +6,7 @@ endif::[]
 :idprefix:
 :idseparator: -
 
-Here's how to embed a responsive iframe in Antora, by hard coding HTML and CSS in a pass through block. +
+You can embed a responsive iframe in Antora, by hard coding HTML and CSS in a pass through block. Here's an example: +
  +
 // Source for this technique: https://benmarshall.me/responsive-iframes/
 // https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html
@@ -67,6 +67,8 @@ position: relative;
 </style>
 ++++
 ----
+
+'''
 
 NOTE: Some websites do not allow their pages to be displayed inside an iframe. If you see a message saying that the connection was refused, you cannot use that address in an iframe. The following URLs should work for demo purposes: +
 +
