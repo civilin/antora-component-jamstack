@@ -15,17 +15,13 @@ I have not found a good way to embed +++<u>iframes</u>+++ in Antora, except to h
 // To hard code it:
 
 ++++
-<div class="wrapper">
 <h1>Topic Title</p>
 <p>Put introductory text here.</p>
 
 <div class="iframe-container">
   <iframe src="https://pressureluckcooking.com/recipe/instant-pot-roast/" frameborder="0"></iframe>
 </div>
-</div>
-
-
-
+s
 <style>
 .iframe-container {
 overflow: hidden;
