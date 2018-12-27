@@ -1,3 +1,29 @@
 = Using HTML in AsciiDoc files
 
-Explain here what passthrough blocks are, and how they can be used to embed html inside an Asciidoc topic.
+AsciiDoc and Markdown both support HTML passthrough. In Markdown, HTML is used to mark up things that the Markdown specification does not define. HTML isn't necessary when marking up content in AsciiDoc, but you can do advanced things by including HTML.
+
+For example, you can embed an external web page using an xref:iframe.adoc[iframe element], or create responsive cards on a xref:site-home:ROOT:index.adoc[home page].
+
+This is accomplished by including HTML inside a passthrough block in Asciidoc. The HTML is 'passed through' unchanged when a web page is generated from the file.
+
+AsciiDoc supports several types of passthrough blocks. For example, a code block makes it possible to include a source listing in an article.
+
+For HTML, a passthrough block is used. Anything inside the block is passed through unchanged.
+
+.A sample passthrough block
+----
+====
+<p>This sentence was written in HTML.</p>
+===
+----
+
+When rendered to HTML, that produces:
+
+====
+<p>This sentence was written in HTML.</p>
+===
+
+== Examples
+
+* xref:iframe.adoc[Using iframes in AsciiDoc]
+* xref:iframe-by-url.adoc[Click links to load an iframe in AsciiDoc]
