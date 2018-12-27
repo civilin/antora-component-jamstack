@@ -14,6 +14,7 @@ Here's how to embed a responsive iframe in Antora, by hard coding HTML and CSS i
 <div class="iframe-container">
   <iframe src="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html" frameborder="0"></iframe>
 </div>
+
 <!-- CSS to make the iframe responsive -->
 <style>
 .iframe-container {
@@ -40,8 +41,9 @@ Copy this code into an AsciiDoc file, with your choice of URL. The source for th
 ++++
 <!-- HTML to embed an iframe -->
 <div class="iframe-container">
-  <iframe src="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html" frameborder="0"></iframe>
+  <iframe src="https://www.somedomain.com/path/filename.html" frameborder="0"></iframe>
 </div>
+
 <!-- CSS to make the iframe responsive -->
 <style>
 .iframe-container {
