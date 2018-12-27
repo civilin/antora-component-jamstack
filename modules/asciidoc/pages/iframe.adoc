@@ -6,7 +6,7 @@ endif::[]
 :idprefix:
 :idseparator: -
 
-You can display an external web page within an AsciiDoc file, by placing an HTML iframe element with CSS to make the iframe responsive, in a pass through block. For example: +
+You can display an external web page within an AsciiDoc file, by placing an HTML iframe element with CSS to make the iframe responsive, in a passthrough block. For example: +
  +
 // Source for this technique: https://benmarshall.me/responsive-iframes/
 // https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html
@@ -40,12 +40,13 @@ position: relative;
 
 To try this technique, copy the code below into an AsciiDoc file. Then insert your choice of URL. This technique was adapted from https://benmarshall.me/responsive-iframes/.
 
+.Copy this passthrough block
 [source, html]
 ----
 ++++
 <!-- HTML to embed an iframe -->
 <div class="iframe-container">
-  <iframe src="#https://www.somedomain.com/path/filename.html#" frameborder="0"></iframe>
+  <iframe src="https://www.somedomain.com/path/filename.html" frameborder="0"></iframe>
 </div>
 
 <!-- CSS to make the iframe responsive -->
@@ -69,7 +70,7 @@ position: relative;
 
 [NOTE]
 ====
-Some websites do not allow their pages to be displayed inside an iframe. If you see a message saying that the connection was refused, you cannot use that address in an iframe. The following URLs should work for demo purposes:
+Some websites do not allow their pages to be displayed inside an iframe. If you see a message saying that the connection was refused, you cannot use that address in an iframe. The following URLs should work for test purposes:
 
 * https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html +
 
