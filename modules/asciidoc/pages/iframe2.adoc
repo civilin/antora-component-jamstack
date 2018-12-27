@@ -5,19 +5,12 @@ endif::[]
 // Settings
 :idprefix:
 :idseparator: -
-:variable: Steve
-:url: https://apps.fedoraproject.org/packages/rubygem-asciidoctor
-:iframe: <p><iframe src="{url}"></iframe></p>
-:iframe2: pass:[iframe]
 
 I have not found a good way to embed +++<u>iframes</u>+++ in Antora, except to hard code the whole thing in a pass through block:
 
 // To hard code it:
 
 ++++
-<h1>Topic Title</p>
-<p>Put introductory text here.</p>
-
 <div class="iframe-container">
   <iframe src="https://pressureluckcooking.com/recipe/instant-pot-roast/" frameborder="0"></iframe>
 </div>
