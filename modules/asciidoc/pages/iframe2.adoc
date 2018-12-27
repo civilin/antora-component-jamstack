@@ -11,7 +11,7 @@ Here's how to embed a responsive iframe in Antora, by hard coding HTML and CSS i
 ++++
 <!-- HTML to embed an iframe -->
 <div class="iframe-container">
-  <iframe src="https://help.mypurecloud.com/articles/outbound-dialing-concepts/" frameborder="0"></iframe>
+  <iframe src="file:///Volumes/COMPUTING/local-github-repos/nun-antora/build/site/jamstack/latest/multimedia/multimedia-example.html" frameborder="0"></iframe>
 </div>
 <!-- CSS to make the iframe responsive -->
 <style>
