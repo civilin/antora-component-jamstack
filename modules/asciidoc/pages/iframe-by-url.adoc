@@ -9,7 +9,7 @@ endif::[]
 ++++
 <p><a href="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html" target="frame">Multimedia Example</a></p>
 <p><a href="https://neveruntilnow.com/kit/index.html" target="frame">StoryTeller's Kit</a></p>
-<p><a href="https://civilin.github.io/mydoctheme/index.html">Tom Johnson's Doc Theme</a></p>
+<p><a href="https://benmarshall.me/responsive-iframes/">Responsive iFrames article</a></p>
 <br>
 
 <!-- HTML to embed an iframe -->
