@@ -3,63 +3,37 @@
 Blank lines are required before and after a list. To create an unordered list, type an asterisk, a space, and then some text.
 
 ----
-
 * Jeff
-
 * Steve
-
 * Jordan
-
 * Andy
-
 * Derek
-
 ----
 
 * Jeff
-
 * Steve
-
 * Jordan
-
 * Andy
-
 * Derek
 
 To nest list items, use additional asterisks.
 
 ----
-
 * Clay
-
 ** Jeff
-
 ** Steve
-
 ** Jordan
-
 *** Josh
-
 ** Andy
-
 ** Derek
-
 * Helen
-
 ----
 
 * Clay
-
 ** Jeff
-
 ** Steve
-
 ** Jordan
-
 *** Josh
-
 ** Andy
-
 ** Derek
-
-* Helen 
+* Helen

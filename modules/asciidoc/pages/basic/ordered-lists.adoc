@@ -18,7 +18,7 @@ To create a numbered list, you can type:
 
 3. Andy
 
-.Automatic numbering
+=== Automatic numbering
 
 That works, but you must manually keep the numbers sequential. It's better to leave the numbers out. Type a period, followed by a space, and then the text of the list item.
 
@@ -38,7 +38,7 @@ That works, but you must manually keep the numbers sequential. It's better to le
 
 . Andy
 
-.Nested Numbered lists
+=== Nested Numbered lists
 
 To nest items, use one or more periods:
 
@@ -70,7 +70,7 @@ To nest items, use one or more periods:
 
 .. Derek
 
-.Mixing list types
+=== Mixing list types
 
 Here’s an example of nesting an unordered list inside of an ordered list:
 
@@ -106,7 +106,7 @@ Here’s an example of nesting an unordered list inside of an ordered list:
 
 * NetBSD
 
-.To manually set starting number
+==== To manually set starting number
 
 ----
 
