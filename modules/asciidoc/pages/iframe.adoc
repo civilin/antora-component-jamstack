@@ -6,7 +6,7 @@ endif::[]
 :idprefix:
 :idseparator: -
 
-You can embed a responsive iframe in Antora, by hard coding HTML and CSS in a pass through block. Here's an example: +
+You can display an external web page within an AsciiDoc file, by placing an HTML iframe element with CSS to make the iframe responsive, in a pass through block. For example: +
  +
 // Source for this technique: https://benmarshall.me/responsive-iframes/
 // https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html
@@ -38,8 +38,7 @@ position: relative;
 
 == Try it yourself
 
-To try this technique, copy the code below into an AsciiDoc file. Then insert your choice of URL. This technique was adapted from https://benmarshall.me/responsive-iframes/. +
- +
+To try this technique, copy the code below into an AsciiDoc file. Then insert your choice of URL. This technique was adapted from https://benmarshall.me/responsive-iframes/.
 
 [source, html]
 ----
