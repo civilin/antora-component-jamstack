@@ -25,5 +25,5 @@
 **** xref:using-html-in-asciidoc-files.adoc[Using HTML in AsciiDoc files]
 ***** xref:iframe.adoc[Using iframes in AsciiDoc]
 ***** xref:iframe-by-url.adoc[Click links to load an iframe in AsciiDoc]
-*** Related documentation
-**** xref:asciidoc-doc-links.adoc[AsciiDoc Documentation]
+** AsciiDoc documentation
+*** xref:asciidoc-doc-links.adoc[AsciiDoc Documentation]
