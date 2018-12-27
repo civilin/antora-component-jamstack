@@ -15,4 +15,5 @@
 ** xref:link-to-explicit-identifiers.adoc[Link to explicit identifiers]
 * xref:using-html-in-asciidoc-files.adoc[Using HTML in AsciiDoc files]
 ** xref:iframe.adoc[Using iframes in AsciiDoc]
+** xref:iframe-by-url.adoc[Click links to load an iframe in AsciiDoc]
 * xref:asciidoc-doc-links.adoc[AsciiDoc Documentation]

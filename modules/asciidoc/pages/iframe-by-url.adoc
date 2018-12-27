@@ -1,0 +1,80 @@
+= Click links to load an iframe in AsciiDoc
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
+
+++++
+<a href="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html" target="frame">Multimedia Example</a>
+<a https://neveruntilnow.com/kit/index.html" target="frame">StoryTeller's Kit</a>
+<a href="https://neveruntilnow.com/docsite/markup/index.html">Lightweight Markup Presentation</a>
+++++
+
+You can display an external web page inside an AsciiDoc file, by placing an HTML iframe element in a <<tryit,passthrough block>>. A few lines of CSS will make the iframe responsive. Here's an example, courtesy of the US Postal Service: +
+ +
+// Source for this technique: https://benmarshall.me/responsive-iframes/
+// https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html
+// https://neveruntilnow.com/kit/index.html
+// https://neveruntilnow.com/docsite/markup/index.html
+++++
+<!-- HTML to embed an iframe -->
+<div class="iframe-container">
+  <iframe name="frame" src="https://www.usps.com/" frameborder="0"></iframe>
+</div>
+
+<!-- CSS to make the iframe responsive -->
+<style>
+.iframe-container {
+overflow: hidden;
+padding-top: 100%;
+position: relative;
+}
+.iframe-container iframe {
+ border: 0;
+ height: 100%;
+ left: 0;
+ position: absolute;
+ top: 0;
+ width: 100%;
+}
+</style>
+++++
+[#tryit]
+== Try it yourself
+
+To try this technique, copy the code below into an AsciiDoc file. Then insert your choice of URL. This technique was adapted from https://benmarshall.me/responsive-iframes/[^].
+
+.Copy this code into your AsciiDoc file:
+[source, html]
+----
+++++
+<!-- HTML to embed an iframe -->
+<div class="iframe-container">
+  <iframe src="https://www.usps.com/" frameborder="0"></iframe>
+</div>
+
+<!-- CSS to make the iframe responsive -->
+<style>
+.iframe-container {
+overflow: hidden;
+padding-top: 100%;
+position: relative;
+}
+.iframe-container iframe {
+ border: 0;
+ height: 100%;
+ left: 0;
+ position: absolute;
+ top: 0;
+ width: 100%;
+}
+</style>
+++++
+----
+
+[NOTE]
+====
+Some websites do not allow their pages to be displayed inside an iframe. If you see a message saying that the connection was refused, you cannot use that address in an iframe.
+====
