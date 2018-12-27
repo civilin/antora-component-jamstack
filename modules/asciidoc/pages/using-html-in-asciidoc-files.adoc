@@ -12,16 +12,16 @@ For HTML, a passthrough block is used. Anything inside the block is passed throu
 
 .A sample passthrough block
 ----
-====
+++++
 <p>This sentence was written in HTML.</p>
-====
+++++
 ----
 
 When rendered to HTML, that produces:
 
-====
+++++
 <p>This sentence was written in HTML.</p>
-====
+++++
 
 == Examples
 
