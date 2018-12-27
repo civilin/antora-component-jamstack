@@ -17,7 +17,7 @@ For HTML, a passthrough block is used. Anything inside the block is passed throu
 ++++
 ----
 
-When rendered to HTML, this produces: +
+When Antora (or another toolchain) converts your file to HTML, you'll see: +
  +
 
 ++++
