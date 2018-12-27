@@ -9,10 +9,11 @@ endif::[]
 Here's how to embed a responsive iframe in Antora, by hard coding HTML and CSS in a pass through block. +
  +
 // Source for this technique: https://benmarshall.me/responsive-iframes/
+// https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html
 ++++
 <!-- HTML to embed an iframe -->
 <div class="iframe-container">
-  <iframe src="https://news.yahoo.com/" frameborder="0"></iframe>
+  <iframe src="https://neveruntilnow.com/kit/index.html" frameborder="0"></iframe>
 </div>
 
 <!-- CSS to make the iframe responsive -->
