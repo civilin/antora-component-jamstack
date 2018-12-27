@@ -6,22 +6,20 @@ endif::[]
 :idprefix:
 :idseparator: -
 
-I have not found a better way to embed +++<u>iframes</u>+++ in Antora, except to hard code the whole thing in a pass through block:
-
-// To hard code it:
-
+Here's how to embed a responsive iframe in Antora, by hard coding HTML and CSS in a pass through block: +
+// Source for this technique: https://benmarshall.me/responsive-iframes/
 ++++
+<!-- HTML to embed an iframe -->
 <div class="iframe-container">
   <iframe src="https://help.mypurecloud.com/articles/outbound-dialing-concepts/" frameborder="0"></iframe>
 </div>
-s
+<!-- CSS to make the iframe responsive -->
 <style>
 .iframe-container {
 overflow: hidden;
 padding-top: 100%;
 position: relative;
 }
-
 .iframe-container iframe {
  border: 0;
  height: 100%;
@@ -30,7 +28,6 @@ position: relative;
  top: 0;
  width: 100%;
 }
-
 </style>
 ++++
 
