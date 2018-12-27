@@ -1,30 +1,29 @@
-.AsciiDoc
-* xref:about-asciidoc.adoc[About AsciiDoc]
-* xref:what-is-asciidoc.adoc[What is AsciiDoc?]
-* xref:why-asciidoc-is-better-than-markdown.adoc[Why AsciiDoc is better for technical writing than Markdown]
-* xref:editors.adoc[Editors]
-* xref:basic-markup.adoc[Basic Markup]
-** xref:basic/document-title.adoc[Document Title]
-** xref:basic/headings.adoc[Headings]
-** xref:basic/paragraphs.adoc[Paragraphs]
-** xref:basic/formatted-text.adoc[Formatted Text]
-** xref:basic/admonitions.adoc[Admonitions]
-** xref:basic/admonition-blocks.adoc[Admonition Blocks]
-** xref:basic/block-titles.adoc[Block Titles (sub-headings)]
-
-* Links
-** xref:basic/explicit-identifiers.adoc[Explicit identifiers (anchors)]
-** xref:basic/link-to-explicit-identifiers.adoc[Link to explicit identifiers]
-** xref:basic/link-to-external-resources.adoc[Link to external resources]
-** xref:basic/link-to-relative-files.adoc[Link to relative files]
-* Lists
-** xref:basic/unordered-lists.adoc[Unordered lists]
-** xref:basic/ordered-lists.adoc[Ordered lists]
-** xref:basic/checkbox-lists.adoc[Checkbox lists]
-** xref:basic/continuation.adoc[Continuation]
-* Advanced Techniques
-* xref:using-html-in-asciidoc-files.adoc[Using HTML in AsciiDoc files]
-** xref:iframe.adoc[Using iframes in AsciiDoc]
-** xref:iframe-by-url.adoc[Click links to load an iframe in AsciiDoc]
-* Related documentation
-* xref:asciidoc-doc-links.adoc[AsciiDoc Documentation]
+* AsciiDoc
+** xref:about-asciidoc.adoc[About AsciiDoc]
+** xref:what-is-asciidoc.adoc[What is AsciiDoc?]
+** xref:why-asciidoc-is-better-than-markdown.adoc[Why AsciiDoc is better for technical writing than Markdown]
+** xref:editors.adoc[Editors]
+** xref:basic-markup.adoc[Basic Markup]
+*** xref:basic/document-title.adoc[Document Title]
+*** xref:basic/headings.adoc[Headings]
+*** xref:basic/paragraphs.adoc[Paragraphs]
+*** xref:basic/formatted-text.adoc[Formatted Text]
+*** xref:basic/admonitions.adoc[Admonitions]
+*** xref:basic/admonition-blocks.adoc[Admonition Blocks]
+*** xref:basic/block-titles.adoc[Block Titles (sub-headings)]
+** Lists
+*** xref:basic/unordered-lists.adoc[Unordered lists]
+*** xref:basic/ordered-lists.adoc[Ordered lists]
+*** xref:basic/checkbox-lists.adoc[Checkbox lists]
+*** xref:basic/continuation.adoc[Continuation]
+** Links
+*** xref:basic/explicit-identifiers.adoc[Explicit identifiers (anchors)]
+*** xref:basic/link-to-explicit-identifiers.adoc[Link to explicit identifiers]
+*** xref:basic/link-to-external-resources.adoc[Link to external resources]
+*** xref:basic/link-to-relative-files.adoc[Link to relative files]
+** Advanced Techniques
+*** xref:using-html-in-asciidoc-files.adoc[Using HTML in AsciiDoc files]
+**** xref:iframe.adoc[Using iframes in AsciiDoc]
+**** xref:iframe-by-url.adoc[Click links to load an iframe in AsciiDoc]
+** Related documentation
+*** xref:asciidoc-doc-links.adoc[AsciiDoc Documentation]
