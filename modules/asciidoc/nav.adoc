@@ -12,9 +12,11 @@
 ** xref:basic/admonition-blocks.adoc[Admonition Blocks]
 ** xref:basic/block-titles.adoc[Block Titles (sub-headings)]
 ** xref:basic/explicit-identifiers.adoc[Explicit identifiers]
+.Links
 ** xref:basic/link-to-explicit-identifiers.adoc[Link to explicit identifiers]
 ** xref:basic/link-to-external-resources.adoc[Link to external resources]
 ** xref:basic/link-to-relative-files.adoc[Link to relative files]
+.Lists
 ** xref:basic/unordered-lists.adoc[Unordered lists]
 ** xref:basic/ordered-lists.adoc[Ordered lists]
 ** xref:basic/checkbox-lists.adoc[Checkbox lists]
