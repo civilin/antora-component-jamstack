@@ -6,10 +6,11 @@ endif::[]
 :idprefix:
 :idseparator: -
 
+Click a link below to load a different page in the iframe: +
+ +
 ++++
 <p><a href="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html" target="frame">Multimedia Example</a></p>
 <p><a href="https://neveruntilnow.com/kit/index.html" target="frame">StoryTeller's Kit</a></p>
-<p><a href="https://benmarshall.me/responsive-iframes/">Responsive iFrames article</a></p>
 <br>
 
 <!-- HTML to embed an iframe -->
