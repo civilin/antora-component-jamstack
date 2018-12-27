@@ -38,13 +38,9 @@ position: relative;
 
 == Try it yourself
 
-To try this technique, copy the code below into an AsciiDoc file. Then insert your choice of URL. This technique was adapted from https://benmarshall.me/responsive-iframes/.
-
-NOTE: Some websites do not allow their pages to be displayed inside an iframe. If you see a message saying that the connection was refused, you cannot use that address in an iframe. The following URLs should work for demo purposes: +
-https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html +
-https://www.usps.com/ +
+To try this technique, copy the code below into an AsciiDoc file. Then insert your choice of URL. This technique was adapted from https://benmarshall.me/responsive-iframes/. +
  +
- 
+
 [source, html]
 ----
 ++++
@@ -71,3 +67,9 @@ position: relative;
 </style>
 ++++
 ----
+
+NOTE: Some websites do not allow their pages to be displayed inside an iframe. If you see a message saying that the connection was refused, you cannot use that address in an iframe. The following URLs should work for demo purposes: +
++
+https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html +
+ +
+https://www.usps.com/
