@@ -5,47 +5,31 @@ You're probably wondering how to tuck paragraphs and images below list items. In
 .Tuck a paragraph below a list item
 
 ----
-
 . Coeum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
 +
-
 Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
 . Voila!
-
 ----
 
 '''
 
 . Coeum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
 +
-
 Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
 . Voila!
 
 .Tuck a figure below a list item
 
 ----
-
 * The quick brown fox jumped over the lazy dog.
-
 +
-
 image::avatar.png[]
-
 * Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-
 ----
 
 '''
 
 * The quick brown fox jumped over the lazy dog.
-
 +
-
 image::avatar.png[]
-
 * Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
