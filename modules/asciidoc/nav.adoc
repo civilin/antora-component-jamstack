@@ -13,7 +13,7 @@
 ** xref:block-titles.adoc[Block Titles (sub-headings)]
 ** xref:explicit-identifiers.adoc[Explicit identifiers]
 ** xref:link-to-explicit-identifiers.adoc[Link to explicit identifiers]
-.Passing HTML through AsciiDoc
+* xref:using-html-in-asciidoc-files.adoc[Using HTML in AsciiDoc files]
 ** xref:iframe.adoc[Using iframes in AsciiDoc]
 .Documentation
 ** xref:asciidoc-doc-links.adoc[AsciiDoc Documentation]

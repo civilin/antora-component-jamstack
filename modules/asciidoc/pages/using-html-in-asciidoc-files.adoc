@@ -1,0 +1,3 @@
+= Using HTML in AsciiDoc files
+
+Explain here what passthrough blocks are, and how they can be used to embed html inside an Asciidoc topic.
