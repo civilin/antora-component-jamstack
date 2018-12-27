@@ -16,5 +16,4 @@
 // after everything else, link to docs
 * xref:asciidoc-doc-links.adoc[AsciiDoc Documentation]
 .Other
-* xref:iframe.adoc[Using iframes in AsciiDoc]
 * xref:iframe2.adoc[Using iframes in AsciiDoc #2]
