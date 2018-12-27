@@ -6,7 +6,7 @@ endif::[]
 :idprefix:
 :idseparator: -
 
-I have not found a good way to embed +++<u>iframes</u>+++ in Antora, except to hard code the whole thing in a pass through block:
+I have not found a better way to embed +++<u>iframes</u>+++ in Antora, except to hard code the whole thing in a pass through block:
 
 // To hard code it:
 
