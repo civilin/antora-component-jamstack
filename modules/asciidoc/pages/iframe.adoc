@@ -45,7 +45,7 @@ To try this technique, copy the code below into an AsciiDoc file. Then insert yo
 ++++
 <!-- HTML to embed an iframe -->
 <div class="iframe-container">
-  <iframe src="https://www.somedomain.com/path/filename.html" frameborder="0"></iframe>
+  <iframe src="#https://www.somedomain.com/path/filename.html#" frameborder="0"></iframe>
 </div>
 
 <!-- CSS to make the iframe responsive -->
