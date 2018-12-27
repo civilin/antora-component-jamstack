@@ -15,7 +15,7 @@ Here's how to embed a responsive iframe in Antora, by hard coding HTML and CSS i
 ++++
 <!-- HTML to embed an iframe -->
 <div class="iframe-container">
-  <iframe src="https://neveruntilnow.com/docsite/markup/index.html" frameborder="0"></iframe>
+  <iframe src="https://www.usgs.gov/" frameborder="0"></iframe>
 </div>
 
 <!-- CSS to make the iframe responsive -->
