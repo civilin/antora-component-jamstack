@@ -12,7 +12,7 @@ I have not found a better way to embed +++<u>iframes</u>+++ in Antora, except to
 
 ++++
 <div class="iframe-container">
-  <iframe src="https://news.google.com/articles/CAIiEMXYemvJAzZnUPrrja_Yp3sqGQgEKhAIACoHCAowvIaCCzDnxf4CMP2F8gU?hl=en-US&gl=US&ceid=US%3Aen" frameborder="0"></iframe>
+  <iframe src="https://help.mypurecloud.com/articles/outbound-dialing-concepts/" frameborder="0"></iframe>
 </div>
 s
 <style>
