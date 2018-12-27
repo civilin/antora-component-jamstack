@@ -4,4 +4,4 @@
 ** Antora-related articles & links
 *** link:antora/{attachmentsdir}/why-antora.pdf[image:pdf-icon.png[] Why Antora Is The Leading Technical Writing Platform^]
 *** https://docs.antora.org/[image:ext-link.png[] Antora documentation^]
-*** xref:antora/{attachmentsdir}/why-antora.pdf[image:pdf-icon.png[] Why Antora Test] 
+*** xref:{attachmentsdir}/why-antora.pdf[image:pdf-icon.png[] Why Antora Test] 
