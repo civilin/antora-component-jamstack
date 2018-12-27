@@ -6,12 +6,13 @@ endif::[]
 :idprefix:
 :idseparator: -
 
-Click a link below to load a different page in the iframe: +
+Click a link to load a page in the iframe: +
  +
 ++++
 <p><a href="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html" target="frame">Multimedia Example</a></p>
 <p><a href="https://neveruntilnow.com/kit/index.html" target="frame">StoryTeller's Kit</a></p>
 <p><a href="https://asciidoctor.org/" target="frame">AsciiDoctor.org</a></p>
+<br>
 <hr>
 
 <!-- HTML to embed an iframe -->
@@ -46,9 +47,15 @@ To try this technique, copy the code below into an AsciiDoc file. Then insert yo
 [source, html]
 ----
 ++++
+<p><a href="https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html" target="frame">Multimedia Example</a></p>
+<p><a href="https://neveruntilnow.com/kit/index.html" target="frame">StoryTeller's Kit</a></p>
+<p><a href="https://asciidoctor.org/" target="frame">AsciiDoctor.org</a></p>
+<br>
+<hr>
+
 <!-- HTML to embed an iframe -->
 <div class="iframe-container">
-  <iframe src="https://www.usps.com/" frameborder="0"></iframe>
+  <iframe name="frame" src="https://www.usps.com/" frameborder="0"></iframe>
 </div>
 
 <!-- CSS to make the iframe responsive -->
