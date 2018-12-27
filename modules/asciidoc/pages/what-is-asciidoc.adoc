@@ -7,7 +7,7 @@
 
 // The above paragraph is a preamble. To create a preamble, type a single paragraph between the document title and the first section title (Heading). Depending upon the stylesheet, preamble text looks larger than body text.
 
-AsciiDoc is a _lightweight markup language_. As such, it uses simple, unobtrusive syntax that is easy to read and compose. Dozens of lightweight markup languages exist, but only a handful are prevalent. The most popular is *Markdown*, a syntax designed to generate blog posts in HTML. But AsciiDoc is a xref:jamstack:asciidoc:why-asciidoc-is-better-than-markdown.adoc[better for techical writing than Markdown].
+AsciiDoc is a _lightweight markup language_. As such, it uses simple, unobtrusive syntax that is easy to read and compose. Dozens of lightweight markup languages exist, but only a handful are prevalent. The most popular is *Markdown*, a syntax designed to generate blog posts in HTML. But AsciiDoc is a xref:jamstack:asciidoc:why-asciidoc-is-better-than-markdown.adoc[better for technical writing than Markdown].
 
 Think of AsciiDoc as _shorthand_ for composing sophisticated content in plain text files. You can convert AsciiDoc files to HTML, PDF, ebooks, and many other formats, using a variety of tools.
 
