@@ -4,62 +4,62 @@ Blank lines are required before and after a list. To create an unordered list, t
 
 ----
 
-* Jeff Beard
+* Jeff
 
-* Steve Flatt
+* Steve
 
-* Jordan Robinson-Rucker
+* Jordan
 
-* Andy Smith
+* Andy
 
-* Derek Adams
+* Derek
 
 ----
 
-* Jeff Beard
+* Jeff
 
-* Steve Flatt
+* Steve
 
-* Jordan Robinson-Rucker
+* Jordan
 
-* Andy Smith
+* Andy
 
-* Derek Adams
+* Derek
 
 To nest list items, use additional asterisks.
 
 ----
 
-* Clay Tison
+* Clay
 
-** Jeff Beard
+** Jeff
 
-** Steve Flatt
+** Steve
 
-** Jordan Robinson-Rucker
+** Jordan
 
-*** Josh Rucker
+*** Josh
 
-** Andy Smith
+** Andy
 
-** Derek Adams
+** Derek
 
-* Helen Follett
+* Helen
 
 ----
 
-* Clay Tison
+* Clay
 
-** Jeff Beard
+** Jeff
 
-** Steve Flatt
+** Steve
 
-** Jordan Robinson-Rucker
+** Jordan
 
-*** Josh Rucker
+*** Josh
 
-** Andy Smith
+** Andy
 
-** Derek Adams
+** Derek
 
-* Helen Follett
+* Helen 
