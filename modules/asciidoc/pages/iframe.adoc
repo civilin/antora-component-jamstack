@@ -67,10 +67,8 @@ position: relative;
 ++++
 ----
 
-'''
-
-NOTE: Some websites do not allow their pages to be displayed inside an iframe. If you see a message saying that the connection was refused, you cannot use that address in an iframe. The following URLs should work for demo purposes: +
+NOTE: Some websites do not allow their pages to be displayed inside an iframe. If you see a message saying that the connection was refused, you cannot use that address in an iframe. The following URLs should work for demo purposes:
 +
 https://neveruntilnow.com/antora/jamstack/latest/multimedia/multimedia-example.html +
- +
++
 https://www.usps.com/
