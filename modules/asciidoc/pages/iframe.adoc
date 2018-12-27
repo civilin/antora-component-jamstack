@@ -40,7 +40,7 @@ position: relative;
 
 To try this technique, copy the code below into an AsciiDoc file. Then insert your choice of URL. This technique was adapted from https://benmarshall.me/responsive-iframes/[^].
 
-.Copy this code block into your AsciiDoc file:
+.Copy this code into your AsciiDoc file:
 [source, html]
 ----
 ++++
