@@ -1,6 +1,11 @@
 [[HID_TABLES]]
-
 == Tables
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
 
 AsciiDoc provides full-featured table support. This sets it apart from other markup languages.  Here's how to create a simple table with a heading row and column width percentages:
 
@@ -40,15 +45,15 @@ If a table has many columns, you can _vertically_ organize the information in ea
 
 |===
 
-| Team 
+| Team
 
 | Team Members
 
-| PureCloud Doc Team 
+| PureCloud Doc Team
 
 | Clay, Andy, Jeff, Derek, Jordan, Steve
 
-| CIC Doc Team 
+| CIC Doc Team
 
 | Everybody else.
 
@@ -62,15 +67,15 @@ As you can see, the vertical arrangement produces the same result. In my opinion
 
 |===
 
-| Team 
+| Team
 
 | Team Members
 
-| PureCloud Doc Team 
+| PureCloud Doc Team
 
 | Clay, Andy, Jeff, Derek, Jordan, Steve
 
-| CIC Doc Team 
+| CIC Doc Team
 
 | Everybody else.
 
@@ -94,7 +99,7 @@ The _cols_ attribute in this example left aligns the first column, and centers a
 
 |===
 
-include::feature_matrix.csv[]
+include::partial$feature_matrix.csv[]
 
 |===
 

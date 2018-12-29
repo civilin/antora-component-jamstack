@@ -6,6 +6,6 @@ image::include_directive.png[]
 
 :leveloffset: +2
 
-include::AsciiDoc_User_Guide.adoc[]
+//include::AsciiDoc_User_Guide.adoc[]
 
-:leveloffset: -2
+//:leveloffset: -2
