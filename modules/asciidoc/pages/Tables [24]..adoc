@@ -97,6 +97,7 @@ The _cols_ attribute in this example left aligns the first column, and centers a
 
 [cols="<,^,^,^,^,^",format="csv", options="header"]
 
+// use partial$ in the include to denote that file is in this component's ROOT/pages/_partials folder
 |===
 
 include::partial$feature_matrix.csv[]
