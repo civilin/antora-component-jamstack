@@ -1,0 +1,10 @@
+= Animation using Physics
+
+This Hype animation uses physics.js.
+// passthrough HTML so that an object tag is inserted. <img> tag won't work:
+++++
+<div id="sfphysics_hype_container" style="margin:0px;position:relative;width:600px;height:400px;overflow:hidden;" aria-live="polite">
+  <script type="text/javascript" charset="utf-8" src="sf-physics.hyperesources/sfphysics_hype_generated_script.js?85671"></script>
+</div>
+++++
+Here's a paragraph that follows the animation.
