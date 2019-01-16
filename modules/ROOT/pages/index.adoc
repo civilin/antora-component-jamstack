@@ -6,4 +6,4 @@ endif::[]
 :idprefix:
 :idseparator: -
 
-JAMstack refers to a mashup of technologies used to build static web sites. A "stack" of tools, notably JavaScript, APIs, and Markup are used to generate a website with fixed content. 
+JAMstack refers to technologies that generate static web sites using a "stack" of tools, notably JavaScript, APIs, and Markup. The resulting web pages  contains fixed content. The same information is served to every visitor. Performance is generally faster than dynamic websites, which generate HTML pages based on information in databases.  
