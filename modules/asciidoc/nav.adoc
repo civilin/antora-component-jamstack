@@ -23,8 +23,8 @@
 **** xref:basic/link-to-relative-files.adoc[Link to relative files]
 ** Advanced Markup
 *** xref:using-html-in-asciidoc-files.adoc[Using HTML in AsciiDoc files]
-*** xref:mega-menu-example.adoc[Mega Menu Example]
 **** xref:iframe.adoc[Using iframes in AsciiDoc]
 **** xref:iframe-by-url.adoc[Click links to load an iframe in AsciiDoc]
+**** xref:mega-menu-example.adoc[Mega Menu Example]
 ** AsciiDoc documentation
 *** xref:asciidoc-doc-links.adoc[AsciiDoc Documentation]

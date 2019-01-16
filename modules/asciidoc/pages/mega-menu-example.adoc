@@ -1,8 +1,6 @@
 = Mega Menu Example
 
-Let's add a mega menu to an AsciiDoc article, by passing through HTML and CSS. This menu was adapted from https://www.w3schools.com/howto/howto_css_mega_menu.asp[Create A Mega Menu] at https://w3schools.com.
-
-For example, you can embed an external web page using an xref:iframe.adoc[iframe element], or create responsive cards on a xref:site-home:ROOT:index.adoc[home page].
+Let's add a mega menu to an AsciiDoc article, by passing through HTML and CSS. This menu was adapted from https://www.w3schools.com/howto/howto_css_mega_menu.asp[Create A Mega Menu] at w3schools.com.
 
 This is accomplished by including HTML inside a passthrough block in Asciidoc. The HTML is 'passed through' unchanged when a web page is generated from the file.
 
@@ -279,8 +277,3 @@ When Antora (or another toolchain) converts your file to HTML, you'll see: +
 }
 </style>
 ++++
-
-== Examples
-
-* xref:iframe.adoc[Using iframes in AsciiDoc]
-* xref:iframe-by-url.adoc[Click links to load an iframe in AsciiDoc]
