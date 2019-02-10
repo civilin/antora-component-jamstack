@@ -1,13 +1,13 @@
 
 = How to add an article-level TOC
 
-Here's how to add to your Antora site, a right-side TOC that displays a list of headings on the current page.
-
-Thanks to https://canary.gitlab.com/antora/antora.org/issues/20[this list] of sites using Antora, I came across https://across-docs.foreach.be/across-site/preview/across/2.1.2-dev/index.html[Across Platform documentation]. Its https://github.com/ForeachOS/ax-docs-across-site-ui[UI bundle] adds this sidebar of headings:
+Here's how to add to your Antora site, a TOC of headings in the current page.
 
 image:across-sidebar-toc.png[]
 
-If a page has H2 or lower headings, the UI lists them on the right. The sidebar is hidden for narrow media sizes, such as phones.
+If a page has H2 or lower headings, those headings are listed in a sidebar on the right. The sidebar is hidden for narrow media sizes, such as phones.
+
+Thanks to https://canary.gitlab.com/antora/antora.org/issues/20[this list] of sites using Antora, I came across https://across-docs.foreach.be/across-site/preview/across/2.1.2-dev/index.html[Across Platform documentation]. The technique and code below comes from its https://github.com/ForeachOS/ax-docs-across-site-ui[UI bundle].
 
 *To add this TOC to your Antora UI:*
 
