@@ -7,17 +7,13 @@ Thanks to https://canary.gitlab.com/antora/antora.org/issues/20[this list] of si
 
 image:across-sidebar-toc.png[]
 
-If a page has H2 or lower headings, those headings are listed on the right. This sidebar is hidden for narrow media sizes (e.g. on phones).
+If a page has H2 or lower headings, the UI lists them on the right. The sidebar is hidden for narrow media sizes, such as phones.
 
-Here are the steps I followed to add an Across TOC to my Antora UI:
-
-== Download Across UI
-
-Optionally downloaded the https://github.com/ForeachOS/ax-docs-across-site-ui[Antora UI project for Across Site docs]. This is the UI that Across uses to build their site.
+To add this TOC to your Antora UI:
 
 == Edit article.hbs
 
-. Edit /src/partials/article.hbs the your own UI source.
+. Edit /src/partials/article.hbs the your UI source.
 
 . Change line 1 from
 +
