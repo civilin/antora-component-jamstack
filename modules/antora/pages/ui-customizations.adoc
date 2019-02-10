@@ -89,7 +89,8 @@ Your footer-scripts code probably looks similar to:
 == Edit site.css
 
 . Edit antora-ui-default/src/css/site.css.
-. Add this line to the end of the file:
+. Append this line to the end of the file:
+. Add a blank line after the last line. Gulp will look for that when you pack the file later.
 +
 [source,html]
 ----
@@ -100,15 +101,15 @@ The site.css file in Across imports additional files, but only article-toc.css i
 
 == Use Gulp to pack the UI bundle
 
-To complete this step, you need to have Gulp set up, per Antora's installation instructions.
+The UI bundle has changed so you need to pack it. To complete this step, Gulp must be set up per Antora's installation instructions.
 
 . Open a terminal window.
 . Change to the directory containing your Antora UI bundle.
-. Type `gulp pack`
+. Type `gulp pack`.
 
 
 == Build the site from your playbook
 
 . Open another terminal window.
 . Change to the directory containing your Antora playbook.
-. Build your website.
+. Enter `antora --pull playbook.yml` to build your site, after replacing playbook.yml with the name of your playbook file.
