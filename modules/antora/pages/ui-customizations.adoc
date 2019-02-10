@@ -1,0 +1,99 @@
+
+= How to add an article-level TOC to the Antora UI
+
+Thanks to https://canary.gitlab.com/antora/antora.org/issues/20[this list] of sites using Antora, I found a site that displays a sidebar of headings in the current page, if the page has H2 or lower headings.  That site was https://across-docs.foreach.be/across-site/preview/across/2.1.2-dev/index.html[Across Platform documentation].
+
+image:across-sidebar-toc.png[]
+
+I downloaded the UI https://github.com/ForeachOS/ax-docs-across-site-ui[here]. Here are the steps I followed to add an article-level TOC to my custom Antora UI.
+
+== Edit article.hbs
+
+. Edit /src/partials/article.hbs the your UI source.
+
+. Change line 1 from
++
+[source, html]
+----
+<article class="doc">
+----
++
+to
++
+[source, html]
+----
+<article class="doc"><a name="section-top"></a>
+----
+
+.Append these lines to the end of article.hbs:
++
+[source, html]
+----
+<aside class="article-aside hidden" role="navigation">
+  <h3 class="toc-title">Contents</h3>
+  <div id="article-toc"></div>
+</aside>
+----
++
+Rather than display "Contents" above the right-side list of links, I changed that to "On this page:".
+
+== Edit footer-scripts.hbs
+
+. Edit /src/partials/footer-scripts.hbs the your UI source.
+
+. Add code to populate a right-hand sidebar using tocbot.js. For more information about tocbot, see the https://tscanlin.github.io/tocbot/[Tocbot page] on GitHub. I slightly modified this code as shown below, to make it display all heading levels except h1. That hides Tocbot when an article has no subheadings.
++
+Your footer-scripts code probably looks similar to:
++
+[source,html]
+----
+<script src="{{uiRootPath}}/js/site.js"></script>
+<script src="{{uiRootPath}}/js/vendor/highlight.js"></script>
+<script>hljs.initHighlighting()</script>
+----
+
+. Replace that with this code from Across UI's footer-scripts.hbs file:
++
+[source, html]
+----
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.min.js"></script>
+<script src="{{uiRootPath}}/js/site.js"></script>
+<script src="{{uiRootPath}}/js/vendor/highlight.js"></script>
+<script>hljs.initHighlighting()</script>
+<script>
+  tocbot.init( {
+                  tocSelector: '#article-toc',
+                  contentSelector: 'article',
+                  headingSelector: 'h2, h3, h4, h5, h6',
+                  collapseDepth: 6,
+                  positionFixedSelector: '#article-toc',
+                  scrollSmooth: false
+                } );
+  var tocList = document.getElementById( 'article-toc' ).getElementsByClassName( 'toc-list' );
+  if ( tocList && tocList.length > 0 && tocList[0].childNodes.length > 0 ) {
+    document.getElementById( 'article-toc' ).parentNode.classList.remove( 'hidden' );
+  }
+</script>
+----
+
+
+Extensions folder below src/class
+
+The Across UI has an Extensions folder below src/css, which I copied to the Antora UI project. Only article-toc.css is required. Copy extensions/article-toc.css to src/css/extensions/article-toc.css. In other words, copy /Users/user1/Desktop/nun-repos/ax-docs-across-site-ui-master/src/css/extensions/article-toc.css to /Users/user1/Desktop/nun-repos/antora-ui-default/src/css/extensions/article-toc.css
+
+
+site.css
+
+
+The site.css file in Across had 4 additional lines. But only article-toc.css is required.
+
+@import "extensions/nav.css";
+@import "extensions/article-toc.css";
+@import "extensions/search.css";
+@import "extensions/typography.css";
+
+So I appended this line to the Antora UI's site.css file:
+
+@import "extensions/article-toc.css";
+
+At this point, the sidebar started to work.
