@@ -8,5 +8,5 @@
 //** xref:second-level-cards-test.adoc[Second level cards - Test]
 //** xref:home-page-cards-test.adoc[Home page Cards - Test]
 //** xref:steve-test.adoc[Home page no media queries - Test]
-*** Not Working Yet
+*** Non Working Prototypes
 **** xref:ROOT:couchbase-tabs.adoc[Couchbase Tabs Extension Example]
