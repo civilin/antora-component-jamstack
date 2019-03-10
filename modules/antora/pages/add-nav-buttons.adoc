@@ -7,4 +7,26 @@ endif::[]
 :idseparator: -
 :nextpage: {page.next}
 
-Antora provides built-in variables that return paths and filenames. I used these variables to add Previous, Next, and Parent navigation buttons to my site's UI bundle.
+Antora offers variables that return various paths and filenames. I used some of those variables to add Previous, Next, and Parent navigation buttons to my site's UI bundle.
+
+== How to add Previous, Next, and Parent buttons to your Antora toolbar
+
+. Edit src/partials/header-content.hbs in your UI bundle.
+. Add the following code:
++
+[source,html]
+====
+<div class="navbar-item">
+  {{#if page.parent}}
+  <span class="control"><a class="button is-primary" href="{{{siteRootPath}}}{{{page.parent.url}}}">Parent</a></span>&nbsp;&nbsp;
+  {{/if}}
+  {{#if page.previous}}
+  <span class="control"><a class="button is-primary" href="{{{siteRootPath}}}{{{page.previous.url}}}">Prev</a></span>&nbsp;&nbsp;
+  {{/if}}
+  {{#if page.next}}
+  <span class="control"><a class="button is-primary" href="{{{siteRootPath}}}{{{page.next.url}}}">Next</a></span>
+  {{/if}}
+</div>
+====
+
+This code checks to see if the page has a parent page, and if so, adds a link to that parent page. If a previous page exists, it adds a Previous button. If a next page exists, it adds a Next button.
