@@ -4,8 +4,9 @@
 ** xref:ROOT:simple-landing-page-example.adoc[Simple landing page example]
 ** xref:ROOT:html-tabs-example.adoc[HTML tabs example]
 // ** xref:ROOT:nav-links.adoc[Test Navigation Links]
-//** xref:ROOT:couchbase-tabs.adoc[Couchbase Tabs Extension Example]
 //** xref:select-an-article-to-display.adoc[Select an article to display]
 //** xref:second-level-cards-test.adoc[Second level cards - Test]
 //** xref:home-page-cards-test.adoc[Home page Cards - Test]
 //** xref:steve-test.adoc[Home page no media queries - Test]
+*** Not Working Yet
+** xref:ROOT:couchbase-tabs.adoc[Couchbase Tabs Extension Example]
