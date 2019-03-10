@@ -15,7 +15,7 @@ Antora offers variables that return various paths and filenames. I used some of 
 . Add the following code:
 +
 [source,html]
-====
+----
 <div class="navbar-item">
   {{#if page.parent}}
   <span class="control"><a class="button is-primary" href="{{{siteRootPath}}}{{{page.parent.url}}}">Parent</a></span>&nbsp;&nbsp;
@@ -27,6 +27,6 @@ Antora offers variables that return various paths and filenames. I used some of 
   <span class="control"><a class="button is-primary" href="{{{siteRootPath}}}{{{page.next.url}}}">Next</a></span>
   {{/if}}
 </div>
-====
+----
 
 This code checks to see if the page has a parent page, and if so, adds a link to that parent page. If a previous page exists, it adds a Previous button. If a next page exists, it adds a Next button.
