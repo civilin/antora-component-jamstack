@@ -7,9 +7,9 @@ endif::[]
 :idseparator: -
 :nextpage: {page.next}
 
-Antora offers variables that return various paths and filenames. I used some of those variables to add Previous, Next, and Parent navigation buttons to my site's UI bundle.
+Antora stores paths and filenames in https://docs.antora.org/antora-ui-default/templates/#template-variables[template variables] that your UI bundle can use to add links or buttons. Here's how I added Previous, Next, and Parent navigation buttons to my site.
 
-== How to add Previous, Next, and Parent buttons to your Antora toolbar
+== How to add Previous, Next, and Parent buttons to the toolbar
 
 . Edit src/partials/header-content.hbs in your UI bundle.
 . Add the following code:
@@ -28,5 +28,36 @@ Antora offers variables that return various paths and filenames. I used some of 
   {{/if}}
 </div>
 ----
++
+The above code checks to see if the page has a parent page, and if so, it adds a link to that parent page. If a previous page exists, it adds a Previous button. If a next page exists, it adds a Next button. This works well.
 
-This code checks to see if the page has a parent page, and if so, adds a link to that parent page. If a previous page exists, it adds a Previous button. If a next page exists, it adds a Next button.
+== To add buttons to the TOC sidebar
+
+I also added buttons to the sidebar TOC, so that when buttons on the toolbar are hidden for a smaller screen, a user can navigate to next and previous pages using the menu dropdown.
+
+To add buttons to the sidebar TOC:
+
+. Edit src/partials/navigation-menu.hbs in your UI bundle.
+. Add the following code:
++
+[source, html]
+----
+{{#if page.parent}}
+<button onclick="window.location.href = '{{{siteRootPath}}}{{{page.parent.url}}}';">Parent</button>&nbsp;&nbsp;
+{{/if}}
+{{#if page.previous}}
+<button onclick="window.location.href = '{{{siteRootPath}}}{{{page.previous.url}}}';">Previous</button>&nbsp;&nbsp;
+{{/if}}
+{{#if page.next}}
+<button onclick="window.location.href = '{{{siteRootPath}}}{{{page.next.url}}}';">Next</button>
+{{/if}}
+----
+
+== Don't forget to pack your UI bundle after making changes
+
+Your UI bundle must be packed (zipped) in order for Antora to build your latest UI.
+
+. Open terminal.
+. Change to the directory containing your UI bundle. The command is cd followed by the path to that folder.
+. Type `gulp pack`.
+. To see the new UI, use Antora to build the site.
