@@ -1,7 +1,7 @@
 * xref:index.adoc[About JAMstack]
 ** xref:docs-as-code.adoc[Docs-as-code]
 * Page prototypes
-** xref:ROOT:landing-page-example.adoc[Landing Page Example]
+** xref:ROOT:simple-landing-page-example.adoc[Simple landing page example]
 ** xref:ROOT:html-tabs-example.adoc[HTML tabs example]
 // ** xref:ROOT:nav-links.adoc[Test Navigation Links]
 //** xref:ROOT:couchbase-tabs.adoc[Couchbase Tabs Extension Example]
