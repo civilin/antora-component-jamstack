@@ -30,7 +30,7 @@ Second-level cards correspond to a section of related articles in the TOC. Link 
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top img-fluid" src="../../site-home/latest/_images/green-hands.png" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="../../jamstack/latest/_images/green-hands.png" alt="Card image cap">
             <div class="card-body">
                 <h3 class="card-title">A Longer Title</h3>
                 <hr>
