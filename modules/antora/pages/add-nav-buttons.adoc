@@ -9,6 +9,8 @@ endif::[]
 
 Antora stores paths and filenames in https://docs.antora.org/antora-ui-default/templates/#template-variables[template variables] that your UI bundle can use to add links or buttons. Here's how I added Previous, Next, and Parent navigation buttons to my site.
 
+TIP: The Antora documentation is slightly misleading. It lists the variable names as page.parent, page.next, and page.previous. To get this to work, your code needs to use page.parent.url, page.next.url, and page.previous.url.
+
 == How to add Previous, Next, and Parent buttons to the toolbar
 
 . Edit src/partials/header-content.hbs in your UI bundle.
