@@ -7,4 +7,3 @@
 ** xref:home-page-cards-test.adoc[Home page Cards - Test]
 ** Not Working Yet
 *** xref:couchbase-tabs.adoc[Couchbase Tabs Extension Example]
-*** xref:home-page-no-media-queries.adoc[Home page no media queries - Test]
