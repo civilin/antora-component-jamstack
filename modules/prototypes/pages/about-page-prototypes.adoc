@@ -1,0 +1,9 @@
+= About page prototypes
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
+
+This section is for experimental pages that I am working on, whether working or not.

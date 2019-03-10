@@ -10,3 +10,4 @@ nav:
 - modules/jekyll/nav.adoc
 - modules/hugo/nav.adoc
 - modules/multimedia/nav.adoc
+- modules/prototypes/nav.adoc
