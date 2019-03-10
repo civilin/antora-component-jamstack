@@ -1,4 +1,4 @@
-# Add buttons that navigate to Next, Previous, or Parent topic
+# Add buttons that navigate to Next, Previous, or Parent topics
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]

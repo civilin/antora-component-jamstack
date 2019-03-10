@@ -2,7 +2,7 @@
 ** xref:about-antora.adoc[About Antora]
 ** xref:why-antora-is-awesome.adoc[Why Antora is awesome]
 ** xref:ui-customizations.adoc[How to add an article-level TOC]
-** xref:add-nav-buttons.adoc[Add buttons that navigate to Next, Previous, or Parent topic]
+** xref:add-nav-buttons.adoc[Add buttons that navigate to Next, Previous, or Parent topics]
 ** Antora links
 *** https://docs.antora.org/[image:link-icon.png[] Antora documentation^]
 *** https://matthewsetter.com/why-antora-is-the-leading-technical-writing-platform/[image:link-icon.png[] Why Antora Is The Leading Technical Writing Platform^]
