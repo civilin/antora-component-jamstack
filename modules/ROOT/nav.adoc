@@ -9,4 +9,4 @@
 //** xref:home-page-cards-test.adoc[Home page Cards - Test]
 //** xref:steve-test.adoc[Home page no media queries - Test]
 *** Not Working Yet
-** xref:ROOT:couchbase-tabs.adoc[Couchbase Tabs Extension Example]
+**** xref:ROOT:couchbase-tabs.adoc[Couchbase Tabs Extension Example]
