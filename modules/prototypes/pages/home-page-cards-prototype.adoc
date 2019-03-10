@@ -1,4 +1,4 @@
-= Home Page Cards Prototype
+= Home Page Cards - Prototype
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
