@@ -1,0 +1,10 @@
+# Add buttons that navigate to Next, Previous, or Parent topic
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
+:nextpage: {page.next}
+
+Antora provides built-in variables that return paths and filenames. I used these variables to add Previous, Next, and Parent navigation buttons to my site's UI bundle.
