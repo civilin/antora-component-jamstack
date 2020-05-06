@@ -1,4 +1,4 @@
-== Block titles (sub-headings)
+= Block titles (sub-headings)
 
 Block titles are headings that don't appear in the table of contents. A block title is a line of text that starts with a period. The period cannot be followed by a space. Figures or tables with block titles are automatically numbered. Paragraphs with block titles are not numbered.
 
