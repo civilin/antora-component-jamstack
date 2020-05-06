@@ -4,7 +4,7 @@ You can compose AsciiDoc using any plain text editor. I recommend using one that
 
 == AsciiDocFX
 
-AsciiDocFX:: This open source editor from a developer in western Europe is specifically designed for AsciiDoc. It's new and incomplete, but offers features no other editor has. For example, it offers a TOC that shows heading structure. If paste text from a web page into this editor, the HTML is automatically converted to AsciiDoc.
+AsciiDocFX:: This open source editor from a developer in western Europe is specifically designed for AsciiDoc. It's new and incomplete, but offers features no other editor has. For example, it offers a TOC that shows heading structure. If you paste text from a web page into this editor, the pasted HTML is automatically converted to AsciiDoc.
 
 +
 
