@@ -1,4 +1,4 @@
-== Link to relative files
+= Link to relative files
 
 To link to a file that is relative in location to the document, use a link macro in front of the file name.
 
