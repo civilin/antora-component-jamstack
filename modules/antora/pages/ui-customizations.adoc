@@ -15,14 +15,14 @@ Thanks to https://canary.gitlab.com/antora/antora.org/issues/20[this list] of si
 
 . Edit /src/partials/article.hbs the your UI source.
 
-. Change line 1 from
+. Change line 1 from:
 +
 [source, html]
 ----
 <article class="doc">
 ----
 +
-to
+to:
 +
 [source, html]
 ----
