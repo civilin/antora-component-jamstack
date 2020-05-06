@@ -1,4 +1,4 @@
-== Link to external resources
+= Link to external resources
 
 .Automatically converted links
 
