@@ -1,4 +1,4 @@
-== Ordered Lists
+= Ordered Lists
 
 To create a numbered list, you can type:
 
