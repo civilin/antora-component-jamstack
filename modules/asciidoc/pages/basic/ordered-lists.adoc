@@ -106,7 +106,7 @@ Here’s an example of nesting an unordered list inside of an ordered list:
 
 * NetBSD
 
-== Manually set starting number of a list item
+== Override the starting number of a list item
 
 ----
 
