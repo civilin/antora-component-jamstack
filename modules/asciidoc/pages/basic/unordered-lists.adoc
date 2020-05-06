@@ -1,4 +1,4 @@
-== Unordered Lists
+= Unordered Lists
 
 Blank lines are required before and after a list. To create an unordered list, type an asterisk, a space, and then some text.
 
