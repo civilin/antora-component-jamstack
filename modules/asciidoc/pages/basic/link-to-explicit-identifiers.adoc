@@ -1,4 +1,4 @@
-== Link to explicit Identifiers
+= Link to explicit Identifiers
 
 It's easy to create a hyperlink that jumps to an identifier in the current document. To say: See <<HID_WHAT_IS_LIGHTWEIGHT_MARKUP, What is lightweight markup?>> type:
 
