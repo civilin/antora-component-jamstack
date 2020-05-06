@@ -79,6 +79,7 @@ This is the content of the second tab.
 --
 ====
 ////
+
 == What I did to implement this
 
 . I copied *tabs-block.js* from the couchbase website to my *lib* folder.
