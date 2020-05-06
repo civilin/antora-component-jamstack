@@ -1,4 +1,4 @@
-== Continuation
+= Continuation
 
 You're probably wondering how to tuck paragraphs and images below list items. Instead of a blank line between items, add a line that contains a plus sign (+)
 
