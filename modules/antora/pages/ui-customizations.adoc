@@ -29,7 +29,7 @@ to
 <article class="doc"><a name="section-top"></a>
 ----
 
-.Append these lines to the end of article.hbs:
+.Append these lines to the end of article.hbs
 +
 [source, html]
 ----
